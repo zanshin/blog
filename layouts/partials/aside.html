@@ -1,0 +1,59 @@
+<aside>
+  <h1><a href="/">{{ .Site.Title }}</a></h1>
+  <p>{{ .Site.Params.description }}</p>
+  {{ $image := resources.Get "images/autumncoast.jpg" }}
+  <img src="{{ $image.RelPermalink }}" width="270" height="180" alt="Autumn coastline picture">
+  <div id="navcontainer">
+    <nav>
+      <ul id="navlist">
+        {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}">
+            {{ $text := print .Name | safeHTML }}
+            {{ $text }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      <ul id="navlist">
+        <li>My Other Sites</li>
+        {{ range .Site.Menus.alt }}
+        <li>
+          <a href="{{ .URL }}">
+            {{ $text := print .Name | safeHTML }}
+            {{ $text }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+
+  <hr />
+  <ul id="social">
+    {{ with .Site.Params.Twitter }}
+    <li>
+      <a href="https://twitter.com/{{.}}">
+        {{ $image = resources.Get "images/twitter-bird-white-on-blue.png" }}
+        <img src="{{ $image.RelPermalink }}" alt="Twitter bird logo" height="32px" width="32px"></a>
+    </li>
+    {{ end }}
+
+    {{ with .Site.Params.GitHub}}
+    <li>
+      <a href="https://github.com/{{.}}">
+        {{ $image = resources.Get "images/GitHub-Mark-32px.png" }}
+        <img src="{{ $image.RelPermalink }}" alt="GitHub Mark" height="32px" width="32px"></a>
+    </li>
+    {{ end }}
+
+    {{ with .Site.Params.Email}}
+    <li>
+      <a href="mailto:{{.}}?Subject=Regarding%20Zanshin.net">
+        {{ $image = resources.Get "images/email-icon-hi.png" }}
+        <img src="{{ $image.RelPermalink }}" alt="Email @ sign" height="32px" width="32px"></a>
+    </li>
+    {{ end }}
+  </ul>
+  <hr />
+</aside>

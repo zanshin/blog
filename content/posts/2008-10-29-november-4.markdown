@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: November 4
+date: 2008-10-29T03:02:00
+comments: true
+tags:
+- life
+link: false
+---
+Vote.
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/fX40RsSLwF4&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/fX40RsSLwF4&hl=en&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object>

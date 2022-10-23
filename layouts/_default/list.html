@@ -1,0 +1,24 @@
+{{ define "main" }}
+  {{ $prev := 3000}}
+  {{ range .Pages.ByPublishDate.Reverse }}
+    {{ if .Date }}
+      {{ if gt $prev (.Date.Format "2006") }}
+        {{ if ne $prev 3000 }}
+          </ul>
+        {{ end }}
+        <h2>{{ .Date.Format "2006" }}</h2>
+        <ul>
+      {{ end }}
+      <li style="list-style-type:none;">
+        {{ .Date.Format "Jan 02" }} »
+        {{ if .Params.link }}
+          <a href="{{ .Params.linkurl }}">{{ .Title }}</a>
+          <a href="{{ .Permalink}}">&#9737;</a>
+        {{ else }}
+          <a class="strong" href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+      </li>
+      {{ $prev = .Date.Format "2006"}}
+    {{ end }}
+  {{ end }}
+{{ end }}

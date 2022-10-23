@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: "In Memorial: 9.11.2001"
+date: 2001-09-11T03:02:00
+comments: true
+tags:
+- life
+link: false
+---
+"I fear all we have done is to awaken a sleeping giant and fill him with a terrible resolve." ? Yamamoto Isoroku, Admiral Japanese Imperial Navy upon learning the attack on Pearl Harbor occurred before the formal declaration of war was made in Washington DC.

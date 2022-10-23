@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Assassin"
+date: 2012-05-05T16:55:00
+comments: true
+tags:
+- books
+link: false
+---
+{{ "0743466713" | amazon_mediumleft_image }}  
+_Assassin_ is the second Alexander Hawke novel and picks up soon after _Hawke_ ends. Like the other Ted Bell books I've read this one wastes no time and moves right along. The story isn't deep, nor are the characters, but it is satisfying in a way to read. Good beach fare I suppose.

@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <div class="content">
+    {{ range (where .Site.RegularPages "Type" "not in" (slice "page" "archive" "status" ) ).GroupByPublishDate (.Site.Params.archiveDateGrouping | default "2006-01") }}
+
+      <ul>
+        {{ range .Pages }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }} <span>({{ .PublishDate.Format (.Site.Params.DateFormat | default "2006-01-02") }})</span></a>
+        </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+{{ end }}

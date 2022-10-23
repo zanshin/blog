@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: By The Way,
+date: 2005-12-11T03:02:00
+comments: true
+tags:
+- life
+link: false
+---
+it was cold here last Friday.
+
+<img src="https://zanshin.net/images/minusfour.png" alt="Freakin' cold">

@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Bike Fit"
+date: 2012-02-06T13:01:00
+comments: true
+tags:
+- life
+- health
+link: false
+---
+I own three bicycles, two of which are in riding condition. The oldest, and currently not in working order bike, is built around a Trek frameset I bought while a freshman in college some 33 years ago. I added some custom wheels, and bought or repurposed parts to finish the bicycle. I rode it from 1979 until about 1988 when I bought my current road bike, a fat-tube aluminum framed Cannondale SR 900. At $900 in 1988 this was a serious purchase and I'm glad I still have this bike. It'll be an antique next year at 25 years of age. Two years ago Sibylle and I bought a pair of Giant cross bikes and have enjoyed riding them in and around our neighborhoods since then.
+
+In an effort to get into better shape I bought a [magnetic trainer](https://zanshin.net/2011/01/08/giant-auto-ii-magnetic-trainer/ "Giant Auto II Magnetic Trainer") last winter and stuck my Cannondale on it and tried to ride several days a week. I'm heavier than I every was 25 years ago and some of my joints have been injured since then making riding far less comfortable than it used to be. Within minutes of starting to ride my groin is numb and I seem to be developing a rather persistent saddle sore. After reading about the [potential long term effects of sitting on one's perineum](http://www.bycycleinc.com/pages/article_MTJ.html "Cycling and Your Health") I decided I needed to make some changes to bikes or stop riding. 
+
+I went to the [local bicycle store](http://www.bigpoppibikes.com/ "Big Poppi") with the idea of getting a dual platform seat, hoping that it would eliminate the cause of the numbness and saddle sores. What I learned was that most people find these seats uncomfortable as with out a nose you constantly feel like you are falling off the seat and have to hold your self on them. They suggested that I try a bike fitting session, which would make adjustments to my bike that might also improve riding comfort. 
+
+This morning over the course of an hour and quarter I had my bike fit session and I am hugely encouraged by the results already. We made several adjustments all aimed at relaxing my riding posture.
+
+##Handlebars
+Clint started by rolling my handlebars up a few degrees. This made an immediate improvement as I didn't have to lean quite as far forward to grab the top of the brake hoods. 
+
+##Leg angle
+Next we measured the angle of my knee with my foot at the bottom of the pedal stroke. The optimal range is 25 to 35 degrees. With my original setup I was at 20 degrees on both legs. By lowering my seat a little bit we reached a very comfortable 30 degrees. 
+
+##Seat Positioning
+We next measured the location of my knees in relation to the ball of my feet and the pedal axel. Ideally the knee should be over the ball of the foot which is over the pedal axel. In my case my knees were slightly behind that ideal position, moving the saddle forward a bit corrected this. Clint also adjusted the cleat on my left foot a bit to better align the ball of my foot and the pedal axel.
+
+##Handlebar Stem
+The final adjustment we made was to change the handlebar stem. The original Cannondale stem had what Clint referred to as "negative angle". By putting one with a positive angle in its place we raised the bars a bit. Along with the new stem I'm getting new brake cables (the raised height will make the old cables too short) and new handlebar tape (the old likely won't come off easily after being there for so long).
+
+##Geometry 
+The result of all these changes is an entirely new riding posture. The new geometry felt immediately more comfortable. In a normal training session on my fixed trainer 25 minutes was enough to cause me total numbness and quite a bit of discomfort. This morning I was on the saddle for the better part of an hour with no numbness and my saddle sore wasn't aggravated. For these reasons	 I think the new posture will be a huge improvement. I am now looking forward to my next training session and to rides outside later this spring.

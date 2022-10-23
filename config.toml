@@ -1,0 +1,43 @@
+baseURL = 'http://zanshin.net/'
+languageCode = 'en-us'
+title = 'Zanshin.net'
+
+[params]
+  owner = "Mark H. Nichols"
+  description = "The personal site of Mark H. Nichols"
+
+  Twitter = "zanshin"
+  GitHub = "zanshin"
+  Email = "mark@zanshin.net"
+
+[menu]
+  [[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 1
+  [[menu.main]]
+  name = "Archive"
+  url = "/posts/"
+  weight = 2
+  [[menu.main]]
+  name = "Colophon"
+  url = "/colophon"
+  weight = 3
+  [[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 4
+
+  [[menu.alt]]
+  name = "Music"
+  url = "https://music.zanshin.net"
+  weight = 1
+  [[menu.alt]]
+  name = "Books"
+  url = "https://books.zanshin.net"
+  weight = 2
+  [[menu.alt]]
+  name = "Geek"
+  url = "https://geek.zanshin.net"
+  weight = 3
+

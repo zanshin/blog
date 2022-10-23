@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Dead Zero"
+date: 2012-04-30T08:15:00
+comments: true
+tags:
+- books
+link: false
+---
+{{ "B005UVQVFW" | amazon_mediumleft_image }}  
+The Bob Lee Swagger books are a bit like [Lee Child's Jack Reacher](http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=jack+reacher#/ref=sr_kk_1?rh=i%3Aaps%2Ck%3Ajack+reacher&keywords=jack+reacher&ie=UTF8&qid=1335791967 "Jack Reacher") books, fast paced and not overly deep. In short they are a good escapist reading. I still think {{ "0553563513" | amazon_link }} was the best novel Stephen Hunter ever wrote, but I am enjoying the ongoing Bob Lee Swagger saga.

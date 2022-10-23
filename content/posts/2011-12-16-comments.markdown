@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Comments"
+date: 2011-12-16T10:45:00
+comments: true
+tags:
+- nerdliness
+link: false
+---
+Since switching to [Octopress](http://octopress.org "Octopress") my site has used [Disqus](http://disqus.com "Disqus") to manage comments. Migrating my existing comments from WordPress was simple, and managing them all in Disqus, has been a breeze. Of course I don't have or get that many so I'm not taxing the Disqus system at all.
+
+The default Octopress theme, which I've slightly modified, doesn't show any comment indication on the main index pages. After some assistance from [Divya](http://nimbupani.com/ "Divya Manian") on the #octopress IRC channel I've modified my site to display comment counts for all postings.
+
+Postings that I create, like this one, will have the comment count displayed just beneath the posting title. Link style postings will have the comment count displayed after the posting. In both cases the comment link takes you to the permanent link for the posting.
+
+The code for displaying the comment link is simple and straight forward:
+
+{{< highlight bash  >}}
+{% raw %}
+{% if site.disqus_short_name and post.comments != false and site.disqus_show_comment_count == true and post.url %} 	
+<a class="commentinfo" href="{{ root_url }}{{ post.url }}#disqus_thread" data-disqus-identifier="https://zanshin.net{{ post.url }}">Comments</a>{% endif %}
+{% endraw %}
+{{< / highlight >}}
+
+Just substitute your site's information, and add the `site.disqus_show_comment_count` attribute to your `_config.yml` file and you should be good to go.

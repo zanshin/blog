@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Gridzzly"
+date: 2019-01-09T22:39:00
+tags:
+- links
+link: http://gridzzly.com
+---
+[gridzzly](http://gridzzly.com) lets you print out your own graph, grid, or musical
+staff paper. I'm going to need to buy fresh toner for the laser printer now.

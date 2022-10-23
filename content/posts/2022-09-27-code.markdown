@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Code"
+date: 2022-09-27T17:31:00
+tags:
+- link
+link: https://amzn.to/3fe1bMu
+---
+ I recently purchased "Code" by Charles Petzold. The second edition is fantastic. Starting from very
+ basic first principles (flash lights) Mr. Petzold builds layer upon layer using Morse code and
+ Braille along the way to introduce the concepts at the foundation of how computers function. I
+ haven't completed the book yet, but I highly recommend it.

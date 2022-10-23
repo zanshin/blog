@@ -1,0 +1,60 @@
+---
+layout: post
+title: "Tab Dump"
+date: 2012-12-11T15:49:00
+comments: true
+tags:
+- nerdliness
+link: false
+---
+It's been a long while since I posted anything here, so for lack of a better topic, here's a list of the 47 tabs currently open in my browser.
+
+[Mint](http://haveamint.com "Mint") - Site visit statistics for my sites  
+[Google Calendar](http://google.com/calendar "Calendar") - Sibylle and I make use of Google calendar every single day  
+[Google Drive](http://drive.google.com "Google Drive") - Use to be Google Docs. Currently open as we are creating the annual Christmas letter  
+Christmas Letter - Not actually going to link to this, but it's open in a tab as well  
+[Github](http://github.com/zan5hin "Github") - my collection of git repositories at Github  
+[Typing Practice for Programmers](http://typing.io "Typing Practice for Programmers") - Had this open for weeks now, should try it sometime  
+[Music for Geeks and Nerds | Errata](http://musicforgeeksandnerds.com/errata.html "Music for Geeks and Nerds | Errata") - Book about music theory and programming I bought and ned to start  
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting "zsh syntax highlighting") - plugin for zsh that adds syntax highlighting to the command line  
+[Perfect Workflow in Sublime Text 2](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/ "Perfect Workflow in Sublime Text 2") - excellent set of videos covering the Sublime Text 2 text editor  
+[The Homely Mutt](http://stevelosh.com/blog/2012/10/the-homely-mutt/ "The Homely Mutt") - Fantastically detailed set of instructions in setting up and using mutt for email  
+[Commanding your Text Editor](http://blog.peepcode.com/blog/2012/commanding-your-text-editor "Commanding Your Text Editor") - Comparative shortcuts for commonly performed actions  
+[Migrating from Kindle to iBooks](http://zacwe.st/blog/kindle-to-epub "Migrating from Kindle to iBooks") - How to use Calibre to remove DRM from most eBooks  
+[Everything you wanted to know about DRM and eBooks](http://apprenticealf.wordpress.com "Everything you wanted to know about DRM and eBooks") - More about DRM
+[Quartz](http://qz.com/33151/the-first-text-message-was-sent-20-years-ago/ "Quartz") - some kind of aggregator site I haven't explored yet  
+[Private by Default](https://www.tbray.org/ongoing/When/201x/2012/12/02/HTTPS "Private by Default") - posting about switching a site from http to https  
+[Profiling Vimscript performance](http://vimcasts.org/episodes/profiling-vimscript-performance/ "Profiling vimscript performance") - The latest in the excellent Vim casts series  
+[Explorations in Unix](http://www.drbunsen.org/explorations-in-unix.html "Explorations in Unix") - using Unix command line tools for statistical analysis   
+[Music Theory](http://www.musictheory.net "Music Theory") - online music theory exercises  
+[Chords and Double Stopping](http://morecelloplease.blogspot.com/2012/11/chords-and-double-stopping.html "Chords and Double Stopping") - interesting thoughts on playing chords and double stops on the cello  
+[Managing Ruby: Moving from RVM to rbenv](http://cantina.co/2011/10/08/managing-ruby-moving-from-rvm-to-rbenv/ "Managing Ruby: Moving from RVM to rbenv") - I'm tempted to switch from RVM to rbenv  
+[Rubies and Bundles](http://hmarr.com/2012/nov/08/rubies-and-bundles/ "Rubies and Bundles") - more on managing Ruby dependencies  
+[Dashing](http://shopify.github.com/dashing/ "Dashing") - an open-source dashboard framework  
+[Crash Course in Objective-C for iOS 6](http://www.raywenderlich.com/21320/objectively-speaking-a-crash-course-in-objective-c-ios6 "Crash Course in Objective-C for iOS 6") - Objective-C continues to fascinate me  
+[Simple Guide to Phrasing](http://benjaminmyerscello.blogspot.com/2012/11/simple-guide-to-phrasing.html "Simple Guide to Phrasing") - thoughts about phasing in music  
+[Tea Bag Buddy](http://www.swiss-miss.com/2012/11/stocking-stuffer-ideas.html "Tea Bag Buddy") - stocking stuffer idea for the tea drinker in your life  
+[How Pythonista Changed My Workflow](http://www.macstories.net/stories/automating-ios-how-pythonista-changed-my-workflow/ "How Pythonista Changed My Workflow") - article about writing Python scripts for iOS  
+[See how long a given process has been running](http://hints.macworld.com/article.php?story=20121127064752309 "See how long a given process has been running") - hint on  creating a bash script for monitoring a process  
+[Top 30 NMap Commands](http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/ "Top 30 NMap commands for Sys/Network Admins") - tips for using nmap  
+[Using Slate: A hacker's window manager for Macs](http://thume.ca/howto/2012/11/19/using-slate/ "Using Slate") - a how to for using the open source Mac window manager Slate  
+[ScriptKit - Drag and Drop Programming for iPad](http://www.macstories.net/links/scriptkit-drag-and-drop-programming-for-ipad/ "ScriptKit - Drag and Drop Programming for iPad") - nifty tool for programming on iPads  
+[ScriptKit](http://scriptk.it "ScriptKit") - actual site for ScriptKit  
+[Layouts](http://projects.jga.me/layouts/ "Layouts") - window management using Alfred and AppleScripts  
+[heard](https://github.com/tmcw/heard "heard") - source for heard, an open-source project that tracks what music you listen to  
+[Heard](http://macwright.org/2012/10/01/heard.html "Heard") - project page for Heard  
+[Take your computer back from your mouse](http://www.theverge.com/2012/12/3/3718546/verge-at-work-alfred-computer-shortcuts "Take your computer back from your mouse") - article on using Alfred  
+[Build a Killer Customized Arch Linux Installation](http://lifehacker.com/5680453/build-a-killer-customized-arch-linux-installation-and-learn-all-about-linux-in-the-process "Build a Killer Arch Linux Installation") - nuts and bolts approach to customizing a Linux distro  
+[Beginner's Guide - Arch](https://wiki.archlinux.org/index.php/Beginners'_Guide "Beginner's Guide - Arch") - wiki site for Arch Linux help  
+[Style Manual](http://stylemanual.org "Style Manual") - a stylish style manual  
+[Guardian Maximus](http://toolsandtoys.net/guardian-maximus/ "Guardian Maximus") - a RAID-1 drive enclosure  
+[Big Nerd Ranch iOS Programming, 3rd Edition](http://www.bignerdranch.com/book/ios_programming_the_big_nerd_ranch_guide_rd_edition_ "Big Nerd Ranch iOS Programming, 3rd Edition") - a book I wish to have  
+[Learning Chef - part 1](http://nathenharvey.com/blog/2012/12/06/learning-chef-part-1/ "Learning Chef - part 1") - set of videos to get started using Chef  
+[Automating System Provisioning and Deployment with Chef](http://tech.hulu.com/blog/2012/07/06/automating-system-provisioning-and-application-deployment-with-chef/ "Automating System Provisioning and Deployment with Chef") - using Chef for system provisioning and application deployment  
+[UICollectionView Custom Layout Tutorial](http://skeuo.com/uicollectionview-custom-layout-tutorial "UICollectionView Custom Layout Tutorial") - tutorial on customizing a UICollectionView layout  
+[Bold Poker](http://boldpokerapp.com "Bold Poker") - poker using iOS devices instead of cards  
+[NSHipster](http://nshipster.com "NSHipster") - site with weekly articles about iOS development  
+[Blabbermouth - YES Concert](http://www.blabbermouth.net/news.aspx?mode=Article&newsitemID=183391 "YES Concert Announcement") - YES is going on tour next spring  
+[The Midland by AMC](http://www.midlandkc.com/eventdetail.php?id=38943 "The Midland by AMC") - the venue for the YES concert in Kansas City  
+
+ 

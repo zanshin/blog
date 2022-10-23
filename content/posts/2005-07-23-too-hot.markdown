@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: Too Hot
+date: 2005-07-23T03:02:00
+comments: true
+tags:
+- life
+link: false
+---
+This is just ridiculous.
+
+<img src="https://zanshin.net/images/TooHot.jpg" title="Too freaking hot">

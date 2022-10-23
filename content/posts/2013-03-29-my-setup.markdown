@@ -1,0 +1,56 @@
+---
+layout: post
+title: "My Setup"
+date: 2013-03-29T23:31:00
+comments: true
+tags:
+- nerdliness
+link: false
+---
+The [Uses This](http://usesthis.com "Uses This") series, and Shawn Blanc's [Sweet Mac Setups](http://shawnblanc.net/sweet-mac-setups/ "Sweet Mac Setups") series have always intrigued me, so I decided to write one of my own.
+
+##Who are you and what do you do?
+My name is Mark Nichols. I'm married to [Sibylle Kuder](http://sibyllekuder.com "Sibylle Kuder Piano Studio"), I play [violoncello](http://cello.zanshin.net "Solfège"), I hack around with [various computer technologies](http://github/com/zan5hin "My GitHub"), and I'm an all-around good guy. Professionally I work for Kansas State University as an "Integration Services Coordinator" — dealing with the sometimes messy intersection of differing systems and their needs. Lately I've been diving into the world of [Vagrant](http://www.vagrantup.com "Vagrant") and [Chef](http://www.opscode.com/chef/ "Chef").
+
+##What hardware do you use?
+My personal computer is a mid-2009 [15" 2009 MacBook Pro](http://support.apple.com/kb/SP544?viewlocale=en_US&locale=en_US "15-inch Mid 2009") with a 2.66 GHz Core 2 Duo processor and 8 GB of RAM. Within the next week the original 320 GB hard drive will be replaced with a new 1 TB drive.
+
+I also have a [16GB iPad Mini](http://www.apple.com/ipad-mini/overview/ "iPad Mini") that is easily one of the nicest computers I have ever owned. My phone is a [16GB iPhone 5](http://www.apple.com/iphone/ "iPhone") on AT&T.
+
+My employer provides me with wonderful tools, so I have on my desk a [mid-2010 27" iMac](http://support.apple.com/kb/SP588 "27-inch iMac") with a 256GB SSD and a 1 TB spinning drive. My work laptop is a [13" Retina MacBook Pro](http://www.apple.com/macbook-pro/ "13-inch MacBook Pro"), with a 500 GB SSD and 8 GB of RAM. It *is* the sweetest computer I've ever had the pleasure of using. 
+
+Tunes in my car are provided via an 8 GB [6th-generation iPod Nano](http://www.apple.com/support/ipodnano/6th_generation/ "iPod Nano"). The car, a 2010 Honda Insight, has the world's clunkiest iPod interface, but it does let me listen to [Zoë Keating](http://www.zoekeating.com "Zoë Keating") on my way to and from work. I have an aging (no longer holds a charge but works fine plugged in) [30 GB iPod](http://www.apple.com/support/ipod/earlier/ "iPod") that holds most of my music and lives in the corner of the house where I practice my cello, so that I can listen to the pieces I am learning.
+
+My cello is a Hans Stainer 100, made by Eastman, fitted with [Jargar Strings](http://www.jargar-strings.com "Jargar Strings") and played with a [CodaBow Diamond SX bow](http://www.codabow.com/cello_sx.html "CodaBow Diamond SX"). I use [Gustave Bernardel rosin](http://www.amazon.com/The-Original-Bernadel-Rosin-Violin/dp/B000F3HK78 "Gustave Bernardel rosin"). 
+
+For printing we have a newly purchased [HP OfficeJet Pro 8600 All-in-One](http://www.amazon.com/HP-Officejet-Wireless-Printer-Scanner/dp/B005O55U2Y/ref=sr_1_cc_2?s=aps&ie=UTF8&qid=1365305141&sr=1-2-catcorr&keywords=hp8600 "HP OfficeJet Pro 8600") printer/copier/fax/scanner. It's beautiful, it's wireless, and it prints like a dream.
+
+At work I use a pair of [Apple EarPods](http://store.apple.com/us/product/MD827LL/A/apple-earpods-with-remote-and-mic?fnode=49 "EarPods") to listen to music or videos. At home I use a variety of earbud style earphones, but only when the cat isn't around. She considers them string with which to be toyed.
+
+##And what software?
+[Sublime Text 2](http://www.sublimetext.com "Sublime Text"), [Vim](http://www.vim.org "Vim"), [tmux](http://tmux.sourceforge.net "tmux"), and [iTerm2](http://www.iterm2.com/#/section/home "iTerm2") for most coding. [IntelliJ IDEA](http://www.jetbrains.com/idea/ "IntelliJ IDEA") for Java, and [XCode](https://developer.apple.com/xcode/ "XCode") for Cocoa and iOS development.
+
+[Safari](http://www.apple.com/safari/ "Safari") for 99% of my browsing and [Google Chrome](https://www.google.com/intl/en/chrome/browser/ "Google Chrome") on rare occasion. 
+
+[Adium](http://adium.im "Adium") for instant message chat and IRC. [Twitterrific](http://twitterrific.com/mac "Twitterrific") for Twitter. 
+
+[Fetch](http://fetchsoftworks.com "Fetch") handles my SFTP needs, although I am making more and more use of sshfs for accessing remote drives.
+
+[Growl](http://growl.info "Growl") for notifications and [Alfred](http://www.alfredapp.com "Alfred") for Cmd-Space-ing things.
+
+[TakeFive](http://takefiveapp.com "TakFive") helps me to control what's playing, and [Cobook](https://cobook.co "Cobook") gives me access to my contacts. 
+
+[F.Lux](http://stereopsis.com/flux/ "F.Lux") dims my laptop screen at night, and brightens it during the daylight hours. 
+
+[Dropbox](https://www.dropbox.com "Dropbox") for convenient movement of files between computers, and Git for version control of all my coding projects. 
+
+##What would be your dream setup?
+After spending a couple weeks with the 13" Retina MacBook Pro I would be hard pressed to consider any other machine. Well, maybe the 15" Retina MacBook Pro. 
+
+I'd like a dead simple storage system that hung off our router that would let Sibylle backup her Windows-based machines and me back up my OS X-based machines seamlessly. And perhaps a Mac Mini tied to a couple large drives to house all our music and DVD movies.
+
+I'd also like an iPod Classic as it would be large enough to hold my complete collection of music and audio books. But first I'll need a car with a decent iPod interface.
+
+I'm intrigued by the [Sonos Speaker](http://www.sonos.com/shop/products/play3 "Sonos") systems, but other priorities have kept that on the someday list.
+
+And someday I hope to be advanced enough on the cello to warrant a really good, old, instrument. 

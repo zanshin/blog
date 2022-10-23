@@ -1,0 +1,249 @@
+---
+layout: post
+title: "Using Vim"
+date: 2011-11-15T09:31:00
+comments: true
+tags:
+- nerdliness
+link: false
+---
+The first time I used _[vi](http://en.wikipedia.org/wiki/Vi "vi")_ was in the mid-1990s while working on a project that
+used Aix servers. Coming from a predominately Mainframe background, the power of
+the Unix command line was new to me, and vi was exotic and exciting. I still
+have a spiral bound stenographers notebook filled with pages of notes on the
+often cryptic commands I was using and learning.
+
+In the intervening fifteen years I have continued to use vi on and off, but
+I have never used it exclusively. There have been any number of other,
+graphical-based editors to play with, most recently [TextMate](http://macromates.com/ "TextMate") on Mac OS X. 
+
+Last winter I read with great interest Jonathan Snook's piece on [exploring
+Vim](http://snook.ca/archives/other/word-of-vim "Journey into the world of
+Vim"). He rationale for learning [Vim](http://www.vim.org/ "Vim") was to satisfy the need to learn something
+new every day. That struck me as a good idea, and learning the modern version
+of vi, Vim, seemed like a worthy goal. At the very least it would provide many,
+many opportunities to learn something new everyday.
+
+In the Snook article he linked to a set of [screencasts](http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/ "Vim from novice to professional") by Derek Wyatt. After watching most of these I was determined to learn Vim. 
+
+{{ "059652983X" | amazon_mediumleft_image }}  
+I started by getting the O'Reilly book 
+_Learning the vi and Vim editors_. Reading dense
+textbooks is _a_ way to learn something new, but doing is where the real
+learning takes place. Using [Homebrew](http://mxcl.github.com/homebrew/
+"Homebrew") I installed [MacVim](http://code.google.com/p/macvim/ "MacVim") and
+started playing around. 
+
+Somewhere along the way I discovered the [Janus](https://github.com/carlhuda/janus "Janus") set of plugins, which take alot of the pain of setup away. I happily used this configuration throughout much of the summer. After installing Mac OS X Lion (10.7) I started having problems with my Vim setup, and so I have started over and built a setup for me that works, and that I understand more intimately.
+
+The rest of this posting outlines how I built Vim using Homebrew, describes
+some of the configurations I've made in my **.vimrc** file, how I'm using
+git and git submodules to version my setup so I can share it to all my
+computers, and the list of bundles that I am currently using to extend Vim's
+functionality.
+
+## Building Vim for Mac OS X Lion
+While Mac OS X comes with a version of Vim, the compile options for that
+version did not support everything I wanted. You can view the options by
+opening a Vim session, and then issuing the **:version**
+command. Any option listed with a **+** is included, those with **-** signs
+are not included. The default Vim doesn't include ruby and it was giving me
+SegV errors whenever I tried to use it with a Ruby other than the default 1.8.x
+that Mac OS X comes with.
+
+I resolved the Vim issues by using Homebrew to install MacVim, and by
+specifying that the Homebrew installed version override the system default
+version.
+
+{{< highlight bash >}}
+brew install macvim --override-system-vim
+{{< / highlight >}}
+
+I was careful to run this command while using the Mac OS X default Ruby
+version. Compiling MacVim with a 1.9.x version of Ruby will fail as not all of
+MacVim's dependencies will work with 1.9.x.
+
+## Configuring Vim
+Vim is highly configurable, and there are dozens of plugin bundles available to
+add or alter functionality. Using a ready made bundle set like Janus can save
+you time and effort. However, in the spirit of learning every day, I opted to
+create my own **.vimrc** file. 
+
+The excellent Steve Losh article [Coming home to Vim](http://stevelosh.com/blog/2010/09/coming-home-to-vim/ "Coming home to Vim") 
+was my guide during much of this process. I liberally copied chunks of
+his **.vimrc** file, and installed some of the bundles he uses.
+
+Here is my entire **.vimrc** file. 
+
+{% gist 1367558 %}
+
+I've noted in the comments at the beginning of the file the various sources
+I've used while building it. The
+[VimCasts.org](http://vimcasts.org/episodes/archive "VimCasts") site is
+a goldmine of great information, complete with code sample for you to use in
+your **.vimrc** file. 
+
+### Using Git to manage and share a Vim configuration
+It was through one [screencast](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/ "Synchronizing plugins with git submodules and Pathogen") in particular that I was able to cleanly and
+easily setup a Git repository for my Vim configuration. This repository makes
+use of Git submodules for the installed bundles, many of which are already Git
+repositories.
+
+In my case I created a new hidden directory in my home directory called
+**.dotfiles**. I then moved my **.vimrc** file and **.vim** directory to
+this new directory. Next I created symlinks in my home directory to point to
+the actual files in the **.dotfile** directory.
+
+{{< highlight bash >}}
+mkdir .dotfiles  
+mv ~/.vimrc ~/.dotfiles/vimrc  
+mv ~/.vim ~/.dotfiles/vim  
+ln -s ~/.dotfiles/vimrc ~/.vimrc  
+ln -s ~/.dotfiles/vim ~/.vim  
+{{< / highlight >}}
+
+Next I created a Git repository in the **.dotfiles** directory, added
+a **README** file, created a cooresponding Github repository, and mated my
+local repository to the remote on Github.
+
+{{< highlight bash >}}
+cd ~/.dotfiles  
+git init  
+mvim README.markdown  
+git add .  
+git commit -m "initial commit"  
+git remote add origin git@github.com:zan5shin/dotfiles.git  
+git push -u origin master  
+{{< / highlight >}}
+
+You can see the instructions I put inside my README on my [dotfile
+repository](https://github.com/zan5hin/dotfiles "dotfiles")
+on Github.
+
+Once the repository has been pushed to Github it is now simple to use the same
+configuration on any machine, simply by cloning the repository and adding
+a couple of symlinks.
+
+## Using Git submodules to manage bundles
+Based on advice from Steve Losh and the vimcasts.org screenscast, I am using
+the [pathogen](https://github.com/tpope/vim-pathogen "pathogen") plugin to
+manage bundles for Vim. This plugin makes it simple to add or remove plugins to
+you Vim configuration. Since most plugins are already Git repositories
+themselves, you simply clone the appropriate repository inside your
+**./vim/bundle** directory and you are good to go. 
+
+However, since your **.vim** directory is contained inside a Git repository you
+should use [Git submodules](http://git-scm.com/book/en/Git-Tools-Submodules "Git
+submodules") to manage plugins which are themselves Git repositories. 
+
+From the root of your Vim configuration repository use **git submodule add** to
+clone the plugin repository and add it to the submodule list. For example, here
+are the steps to add [vim-fugitive](https://github.com/tpope/vim-fugitive
+"vim-fugitave"), a plugin for working with Git.
+
+{{< highlight bash >}}
+cd ~/.dotfiles
+git submodule add https://github.com/tpope/vim-fugitive.git vim/bundle/fugitive
+git commit -m "installed vim-fugitive"
+git push
+{{< / highlight >}}
+
+The [screencast](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/ "Synchronizing plugins with git submodules and Pathogen") on synchronizing with git and pathogen explains these steps beautifully.
+
+Once you have added one or more bundles, committed those changes to you local
+repository, and push that repository to Github, you are ready to share this new
+configuration with any other clones you may have created.
+
+The initial clone on a second (or third, or _n-th_ machine) looks like this:
+
+{{< highlight bash >}}
+cd ~
+git clone http://github.com/username/dotfiles.git .dotfiles
+ln -s ~/.dotfiles/vimrc ~/.vimrc
+ln -s ~/.dotfiles/vim ~/.vim
+cd ~/.dotfiles
+git submodule init
+git submodule update
+{{< / highlight >}}
+
+The last two commands above are necessary to initialize and update the
+submodule repositories. If you only have one bundle installed this seems like
+extra work, but once you have several bundles installed, the submodule system
+pays off.
+
+Subsequent updates of a specific bundle goes like this:
+
+{{< highlight bash >}}
+cd ~/.dotfiles/vim/bundle/fugitive
+git pull origin master
+{{< / highlight >}}
+
+You can also use the **foreach** command to update all bundles at once. This is
+run from the root of your repository, where the **.gitmodules** file is
+located.
+
+{{< highlight bash >}}
+git submodule foreach git pull origin master
+{{< / highlight >}}
+
+One caveat to be aware of, as you update plugins via Git you may get messages
+about the repository tree being dirty. In order to avoid that, following the
+link at the end of the screencast posting, I added **ignore = dirty** to each
+submodule entry in the **.gitmodules** file as I added plugins. 
+
+Here is my **.gitmodules** file:
+
+{{< highlight bash >}}
+[submodule "vim/bundle/fugitive"]
+	path = vim/bundle/fugitive
+    url = http://github.com/tpope/vim-fugitive.git
+    ignore = dirty
+[submodule "vim/bundle/solarized"]
+	path = vim/bundle/solarized
+    url = git://github.com/altercation/vim-colors-solarized.git
+    ignore = dirty
+[submodule "vim/bundle/gundo"]
+	path = vim/bundle/gundo
+    url = https://github.com/sjl/gundo.vim.git
+    ignore = dirty
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+    url = https://github.com/scrooloose/nerdtree.git
+    ignore = dirty
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+    url = https://github.com/scrooloose/nerdcommenter.git
+    ignore = dirty
+[submodule "vim/bundle/command-t"]
+	path = vim/bundle/command-t
+    url = git://git.wincent.com/command-t.git
+    ignore = dirty
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+    url = https://github.com/scrooloose/syntastic.git
+    ignore = dirty
+{{< / highlight >}}
+
+## Vim Bundles
+There are many bundles to choose from, and as a rank beginner at Vim, I've only
+scratched the surface. Still, here are the bundles that I've incorporated into
+my setup, along with a brief description of each.
+
+* [pothogen](https://github.com/tpope/vim-pathogen "pathogen"): simplified
+bundle management
+* [vim-fugitive](https://github.com/tpope/vim-fugitive "fugitive"): a Git
+ wrapper
+* [solarized](https://github.com/altercation/vim-colors-solarized "solarized"):
+ a color scheme for Vim
+* [gundo](http://sjl.bitbucket.org/gundo.vim/ "gundo"): a graphical view of
+ Vim's undo tree
+* [nerdtree](https://github.com/scrooloose/nerdtree "nerdtree"): a tree
+ explorer for files
+* [nerdcommenter](https://github.com/scrooloose/nerdcommenter "nerdcommenter"):
+ makes commenting easy
+* [command-t](https://wincent.com/products/command-t "command-t"): open files
+ ala TextMate
+* [syntastic](https://github.com/scrooloose/syntastic "syntastic"): syntax
+ checking
+
+

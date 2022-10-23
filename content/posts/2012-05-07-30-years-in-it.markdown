@@ -1,0 +1,27 @@
+---
+layout: post
+title: "30 Years in IT"
+date: 2012-05-07T08:02:00
+comments: true
+tags:
+- life
+- nerdliness
+link: false
+---
+For the past ten years or so I have posted a list with as many items as I was old on my birthday. This year I'm not going to do that. This year marks thirty (30!) years since I was first employed as a programmer.
+
+My undergraduate degree is in Applied Computer Science. The "applied" has two meanings. First, we were all required to have at least a minor in another subject -- something to apply computer science toward. Most of us choose business administration. Second, we had to work -- either through an internship for one summer, of through a co-op program that had you in school your freshman year and then alternating school semesters with work semesters and summers until you graduated.
+
+I opted for the internship and spent the summer of 1982 working for a corn wet miller in their data processing department. They were converting from Honeywell mainframes to IBM and, in spite of what we had been told about COBOL being portable between computers, there were some critical changes to be made to each program. For example, the Honeywell compiler would initialize working storage for you if you didn't explicitly initialize it in your Procedure Division. The IBM compiler wasn't as forgiving. We had to find and initialize all fields in working storage that hadn't been explicitly initialized in the code. 
+
+Working with computers was vastly different 30 years ago. Working _period_ was different. You wore a suit and tie to work every day. There was no casual dress. We didn't have cubicles. I sat at a desk in a large room full of desks. Everyone could see everyone else. As the intern I had the worst position in the room -- the desk in the front row closest to where the room entrance was located. No one had terminals on their desk. Instead there were 5 or 6 terminals in a cluster in the back of the room that you used when you needed to check the status of something. 5 or 6 terminals that were shared by perhaps 25 people. 
+
+I spent most of my time reading through hard-copy print outs of the programs I was responsible for migrating and filling out coding sheets with the changes I wanted to make. The coding sheets looked like graph paper. Once you had a set of changes written out you walked down the hall to the window into the keypunch room and handed your form(s) to the blue-haired lady in charge. After a while the mail cart came around and dropped off a stack of cards for you. With cards in hand you made a second trip down the hall to the card reader window and another blue-haired lady. The next day you got the results of your job. 
+
+Yes. The next day. We had 24 hour turn-around. If you made a dumb mistake that caused your job to not run (a missing period, for example) you just lost a day's productivity. I worked on several programs at once, so I had plenty to do even with a 24-hour delay each time I ran something.
+
+It was a tremendous experience for me. I learned that much of what I had been taught in school was right. I could actually program and get paid for it. I also learned that there were some things that worked differently -- in school we complied, linked and ran all in one step. At work those were separate steps. 
+
+I had spent the three previous summers working at a summer camp, outdoors, with kids. It was a blast. Juxtaposing being a summer camp counselor with being a programmer gave me pause more than once. I wasn't at all sure I wanted an indoor job that required wearing a suit and tie. However, after experiencing programming for real I was hooked. The pay was better too.
+
+For my efforts I got $6 an hour. And I was paid every Friday at noon. I lined up with the other temporary employees at the pay window and collected my check. I have made my living in data processing, er, information technology, ever since. 

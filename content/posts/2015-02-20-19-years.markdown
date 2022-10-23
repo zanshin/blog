@@ -1,0 +1,20 @@
+---
+layout: post
+title: "19 Years"
+date: 2015-02-20T12:39:00
+tags:
+- site
+link:
+---
+Zanshin.net is 19 years old today. 
+
+    $ whois zanshin.net | grep Creation
+    Creation Date: 1996-02-20T05:00:00.00Z
+
+I've lost track of the number of major revisions my site has had in that time, but I do know that it has gone from hand-coded to [Blogger](http://www.blogger.com "Blogger") to [MoveableType](https://movabletype.org "MoveableType") to [Wordpress](http://wordpress.org "Wordpress") to [Octopress](http://octopress.org "Octopress") and finally to [Jekyll](http://jekyllrb.com "Jekyll"). 
+
+In addition to the main domain, there are three subdomains. [Geek](http://geek.zanshin.net "Geek") a semi-frequently updated link-list of technology sites. You can [drag-and-drop the sections](https://zanshin.net/2008/11/12/using-jquery-to-create-igoogle-style-drag-and-drop/ "Using JQuery to Create iGoogle Style Drag-and-Drop"). [Books](http://books.zanshin.net "Books") is a listing of all that I've read this year. Includes audiobooks too. And [Health](http://health.zanshin.net "Health") is a record of my daily exercise, calories, and weight.
+
+In terms of numbers there are (approximately) 653,754 words in the postings (not counting this one), and this post will be number 2,158. The site's readership has steadily increased each year now for several years. Currently I average about 550 visits per day or 14,000 per month, give or take. 
+
+Here's to another 19 years.

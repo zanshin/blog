@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: The Dash
+date: 2006-08-22T03:02:00
+comments: true
+tags:
+- elsewhere
+link: false
+---
+<a href="http://www.thedashmovie.com/" title="The Dash Poem Movie">The Dash Poem Movie</a>

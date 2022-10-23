@@ -1,0 +1,11 @@
+---
+layout: post
+title: "1222"
+date: 2012-04-12T22:46:00
+comments: true
+tags:
+- books
+link: false
+---
+{{ "1451634714" | amazon_mediumleft_image }}  
+Ever since Stieg Larsson erupted on to the literary scene there have been any number of Scandinavian authors being translated into English, hoping, I think, to cash in on the "Scandinavian best seller craze". _1222_ by Anne Holt is one of the better ones I've tried. She manages to out Christie Agatha. I'll have to look for others by Holt as I quite enjoyed the central character of Hanne Wilhelmsen. 

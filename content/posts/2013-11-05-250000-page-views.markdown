@@ -1,0 +1,9 @@
+---
+layout: post
+title: "250000 Page Views"
+date: 2013-11-05T10:59:00
+tags:
+- site
+link:
+---
+While I was off updating the backend for my site to [Jekyll](http://jekyllrb.com "Jekyll") the overall page count passed 250,000. As of this morning 253,663 page views to be reasonably exact. What's interesting is the recent increase in daily page views. For most of this year I've had in the neighborhood of 200 visits per day. In the last two weeks this number has jumped to 300+ visit per day. Posting activity here has been a bit slow recently, so I'm at a bit of loss to explain the sudden up turn in views. Not that I am complaining. 

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Wordy"
+date: 2011-10-03T14:04:00
+comments: true
+tags:
+- nerdliness
+link: false
+---
+One of the advantages of having your entire site in text files on your computer, is being able to munge those files with any number of nifty Unix-style commands. For example, I can easily count all the postings on my site with `ls -l | wc -l` and see that this is the 1,812th posting here.
+
+Or, I can count all the words in all the postings with `wc * | sort` and see that the smallest posting has 20 words, while the largest has 4,963 words. In total I've published 561,922 words in the last decade or so. Half a million. 
+
+And I can see that 2,346 files total are pushed to my server to make this site work by running `find . -type f | wc -l`.
+
+I love being a nerd.

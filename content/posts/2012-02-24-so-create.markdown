@@ -1,0 +1,13 @@
+---
+layout: post
+title: "so create"
+date: 2012-02-24T08:11:00
+comments: true
+tags:
+- nerdliness
+link: false
+---
+Here's a great quote that I just ran across in this [wonderful rant about Rails](http://gilesbowkett.blogspot.in/2012/02/rails-went-off-rails-why-im-rebuilding.html "Rails when off the rails"). The quote is by [why the lucky stiff](http://en.wikipedia.org/wiki/Why_the_lucky_stiff "_why").
+
+> when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.
+

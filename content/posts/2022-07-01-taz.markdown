@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Taz"
+date: 2022-07-01T22:30:00
+tags:
+- family
+link:
+---
+<img src="https://zanshin.net/images/taz.jpg" alt="Taz" width="400" height="300" />
+
+Taz (2003 - 2022)

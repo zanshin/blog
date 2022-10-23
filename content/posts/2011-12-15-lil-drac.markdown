@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Lil' Drac"
+date: 2011-12-15T10:00:00
+comments: true
+tags:
+- links
+link: http://www.youtube.com/watch?feature=player_embedded&v=FkeSSdwbnPg
+---
+"... and he rocks."
+
+{{ youtube(id="FkeSSdwbnPg") }} 

@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Pirate"
+date: 2012-05-15T13:51:00
+comments: true
+tags:
+- books
+link: false
+---
+{{ "0743275071" | amazon_mediumleft_image }}  
+This Alex Hawke adventure has the Chinese and French threatening a world war over oil. While I find these books to be formulaic and predictable they are enjoyable. Think of them as a really good hamburger. Not a preformed fast-food burger, a homemade one. Better than junk food but still not necessarily good for you. Just two more titles to go and I'll have finished off all the currently available Alex Hawke stories. 

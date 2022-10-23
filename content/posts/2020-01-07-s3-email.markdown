@@ -1,0 +1,10 @@
+---
+layout: post
+title: "S3 Email"
+date: 2020-01-07T12:26:00
+tags:
+- link
+link: https://github.com/0x4447/0x4447_product_s3_email
+---
+A serverless email server on AWS using S3 and SES. Because, why not?
+

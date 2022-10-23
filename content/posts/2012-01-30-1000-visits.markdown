@@ -1,0 +1,15 @@
+---
+layout: post
+title: "1000 Visits"
+date: 2012-01-30T09:08:00
+comments: true
+tags:
+- nerdliness
+link: false
+---
+(Warning: Personal site statistics navel gazing ahead.)
+
+My little bitty site continues to grow in popularity. Last week was the first time I had over 1000 visits for the week without some large outside event like a link from [Shawn Blanc](http://shawnblanc.net "Shawn Blanc") or [Reddit](http://reddit.com "Reddit"). The average weekly visit count has been slowly increasing for the past few months and has been hovering just under 1000 for several weeks now. 
+
+The increased number of visits is icing on the cake for me, as having the site and posting to it are essential to me.
+

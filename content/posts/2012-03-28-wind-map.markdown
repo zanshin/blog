@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Wind Map"
+date: 2012-03-28T21:47:00
+comments: true
+tags:
+- links
+link: http://hint.fm/wind/
+---
+A mesmerizing visualization of wind in the lower 48 of the United States.  
+(via: [@HackerNews](https://twitter.com/#!/HackerNews "@HackerNews"))

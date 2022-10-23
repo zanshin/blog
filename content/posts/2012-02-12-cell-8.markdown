@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Cell 8"
+date: 2012-02-12T20:58:00
+comments: true
+tags:
+- books
+link: false
+---
+{{ "1402787154" | amazon_mediumleft_image }}  
+A very powerful story about the death penalty, with a bit of a surprise ending. European, well, Scandinavian, authors are all the rage these days it seems, and Roslund and Hellström are well worth the attention. I will be seeking out their other books at the library.  

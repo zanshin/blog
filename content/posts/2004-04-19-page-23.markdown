@@ -1,0 +1,26 @@
+--- 
+layout: post
+title: Page 23
+date: 2004-04-19T03:02:00
+comments: true
+tags:
+- meme
+link: false
+---
+<a href="http://www.hicksdesign.co.uk/journal/" title="// hicksdesign :: journal">Hicks</a> told me to:
+
+
+1. Grab the nearest book.
+
+
+2. Open the book to page 23.
+
+
+3. Find the fifth sentence.
+
+
+4. Post the text of the sentence in your journal along with these instructions.
+
+From "<a href="https://secure.palmdigitalmedia.com/product/detail/7130" title="Chasing the Dime">Chasing the Dime</a>" by Michael Connelly:
+
+"She shouldn't have been allowed to just waltz out the door at the end of the day."

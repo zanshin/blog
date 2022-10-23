@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Converse"
+date: 2011-08-14T15:57:00
+comments: true
+tags:
+- links
+link: http://getconverse.com/
+---
+An iPad application for translating conversations. Very cool.

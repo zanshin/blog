@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: Nekko
+date: 2008-06-09T03:02:00
+comments: true
+tags:
+- family
+link: false
+---
+<img src="https://zanshin.net/images/nekko_20080609.jpg" alt="Nekko" width="400" height="300" />
+
+Nekko (1997 - 2008)

@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>
+  <a href="{{ .Params.linkurl }}">{{ .Title }}</a>
+  <a href="{{ .Permalink}}">&#9737;</a>
+</h1>
+  {{ partial "metadata.html" . }}
+  <br><br>
+  {{ .Content }}
+{{ end }}

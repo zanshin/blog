@@ -1,0 +1,11 @@
+---
+layout: post
+title: "UK 24"
+date: 2014-11-20T13:10:00
+tags:
+- links
+link: http://vimeo.com/110348926
+---
+A stunning visualization of air traffic over the United Kingdom. 
+
+<iframe src="//player.vimeo.com/video/110348926" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/110348926">UK 24</a> from <a href="http://vimeo.com/natsaero">NATS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>

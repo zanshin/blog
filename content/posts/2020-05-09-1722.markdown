@@ -1,0 +1,70 @@
+---
+layout: post
+title: "1722"
+date: 2020-05-09T08:45:00
+tags:
+- nerdliness
+link:
+---
+I ordered my first Apple Watch the day they went on sale, April 24, 2015. I was slow enough
+completing the process that it didn't ship for a couple of weeks, so I didn't get the watch until
+early May.
+
+I've worn it, and later the Apple Watch 4 I bought to replace it, every day since. Initially I
+closed some of the rings some days, but rarely all three rings in a day. Beginning in August 2015 I
+started closing all three rings every day.
+
+I've closed all three rings every day for 1,722 days. One thousand, seven hundred and twenty-two
+days.
+
+That streak is not at an end, but the "official" record of it on my iPhone is in jeopardy. On
+Wednesday, three days ago as I write this, my iPhone, a now five-year old iPhone 6S Plus, freaked
+out and started asking me for my iCloud password repeatedly. After entering that password, I
+discovered I had to re-enter my mail password, re-setup Authy, and sign back into other apps that
+sit behind passwords.
+
+At the time I found this annoying, but didn't really think too much about it. Yesterday afternoon I
+realized my Apple Watch was no longer syncing with my phone. Looking at the Activity app on th phone
+I could see a partial day recorded for Wednesday, and nothing at all for Thursday or Friday. It felt
+like I'd been punched in the stomach.
+
+I immediately rebooted my phone and then my watch. Still no connection. I called Apple Support.
+Within minutes I was talking to a very helpful woman who gathered some data and had me try
+restarting my devices again. When that didn't work she escalated the case to a higher level of
+support. The next woman and I spent more than 90 minutes on the phone together. By the end of the
+call she had opened a ticket with engineering, and had captured some log files from my phone. I also
+sent her several screen shots from the phone and the watch. We also did a full back up of the phone
+to my computer, using a password so that the health and activity data would be backed up too.
+
+I'm now waiting for a return call on Monday, hopefully to set up a call with the engineering folks.
+Since the end of yesterday's phone call, I've discovered what I think is the problem: the iPhone's
+Bluetooth is not fully functional.
+
+It is only paired with my Airpods. It shows an entry called "Apple Watch", but there's no "I" icon
+to allow seeing more information about that connection. When I try to pair the iPhone and my iPad,
+the iPad sees the phone, but cannot connect to it. The phone doesn't see any nearby Bluetooth
+devices.
+
+From the phone I can "find my watch", but the reverse is not true. From the watch I cannot ping the
+phone to locate it.
+
+Whatever happened Wednesday morning about 11 am has damage/crippled/borked the Bluetooth interface
+on the phone. My hope is that engineering can somehow reset that interface in a way that doesn't
+lose my activity data.
+
+I asked during the call how long the watch will store data without syncing to the phone. The answer
+is: until it runs out of storage, usually about 7-10 days. My watch has 5 GB of used space and 7 GB
+of free space. There is about 3 GB of music on the watch that I would instantly remove, however,
+that requires that it be synced with my phone.
+
+It is not possible to pair the watch to a new phone with out wipingg it clean—losing all the data it
+has. If that were possible I'd go buy a new iPhone today, and restore the backup to the new phone
+and then pair the watch.
+
+On my iPhone the activity history shows 1,719 days with all three rings completed. The watch has
+data showing 3 more days (Wednesday, Thursday, and Friday), bringing the (potential) total up to
+1,722 days. By Monday that potential number will be 1,724 plus Monday.
+
+I am on tenterhooks waiting for Monday's call. Both tech people were impressed with the length of my
+streak, and the second one in particular is determined to keep it if at all possible. I fervently
+hope she can pull that off.

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "New Year"
+date: 2015-01-01T17:03:00
+tags:
+- site
+link:
+---
+The start of a new year always inspires people to start new ventures, set new goals, and make resolutions. Quite without prior planning or thought I've added two new sub-domains to my site today.
+
+##Books
+I read. I read a _lot_. I frequently am reading more than one book at a time. [Books](http://books.zanshin.net "Books") is where I plan to track all the books I read or listen to this year. 
+
+##Health
+New year beginnings seem to attract health resolutions. I'm *not* making a resolution. What I am doing is keeping score; tracking my exercise and eating habits. I want to have a more active lifestyle overall and to increase my general fitness. Toward that end I bought a treadmill desk for my office where I hope to walk at least a couple, three, hours every work day. At home we also have a treadmill, and my wife and I take walks most days around the block. By cataloging my health metrics for a year I hope to see patterns, good and not so good, and develop better habits. You can follow along on the new [health](http://health.zanshin.net "Health") sub-domain.
+
+

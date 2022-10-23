@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: "Book: Gone"
+date: 2006-05-10T03:02:00
+comments: true
+tags:
+- diversions
+link: false
+---
+Rating: Good suspense, nice plot twists, worth a read

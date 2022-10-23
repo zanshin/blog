@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: Geek Test
+date: 2002-03-02T03:02:00
+comments: true
+tags:
+- nerdliness
+link: false
+---
+You like flexible structure.  You use your deep insight and logic to solve problems.  You enjoy experiencing many new things.  You have at least one area of expertice that allows you to demonstrate your creativity.
+
+test yourself at <a href="http://geekykid.net" target="_blank">geekykid.net</a>

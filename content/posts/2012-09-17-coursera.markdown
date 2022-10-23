@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Coursera"
+date: 2012-09-17T08:33:00
+comments: true
+tags:
+- nerdliness
+link: false
+---
+Through a [colleague](http://cholick.com "Matt Cholick") I recently learned about [Coursera](https://www.coursera.org "Coursera"). Coursera provides over 120 free, online courses from 16 top universities. What sets Coursera apart from other online course offerings is the level of interaction and feedback provided. I have watched a couple of Stanford courses in the past year, working through the assignments on my own. While I have learned from these experiences, there has been no official feedback from the lecturer and no way for me to participate in the class.
+
+Coursera aims to provide an interactive experience, complete with grading and, in most cases, some kind of certificate upon successful completion of the course material. Lectures are broken into short 8 to 12 minute videos about a topic. These videos have embedded questions in them that all students must answer before continuing. Assignments are machine graded making it possible for very large groups of students to receive feedback about their work.
+
+This TED talk by one of the founders of Coursera, [Daphne Koller](http://ai.stanford.edu/~koller/ "Daphne Koller"), explains the genesis of Coursera and their goals and ambitions.
+
+<object width="526" height="374"><param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"></param><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always"/><param name="wmode" value="transparent"></param><param name="bgColor" value="#ffffff"></param><param name="flashvars" value="vu=http://video.ted.com/talk/stream/2012G/Blank/DaphneKoller_2012G-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/DaphneKoller_2012G-embed.jpg&vw=512&vh=288&ap=0&ti=1531&lang=en&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=daphne_koller_what_we_re_learning_from_online_education;year=2012;theme=listening_to_teachers;theme=technology_history_and_destiny;theme=how_we_learn;event=TEDGlobal+2012;tag=Internet;tag=computers;tag=education;tag=global+issues;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;" /><embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="526" height="374" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talk/stream/2012G/Blank/DaphneKoller_2012G-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/DaphneKoller_2012G-embed.jpg&vw=512&vh=288&ap=0&ti=1531&lang=en&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=daphne_koller_what_we_re_learning_from_online_education;year=2012;theme=listening_to_teachers;theme=technology_history_and_destiny;theme=how_we_learn;event=TEDGlobal+2012;tag=Internet;tag=computers;tag=education;tag=global+issues;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;"></embed></object>
+
+
+I'm signed up for [Functional Programming Principles in Scala](https://www.coursera.org/course/progfun "Functional Programming Principles in Scala"), which is offered by École Polytechnique Fédérale de Lausanne and taught by Scala's creator [Martin Odersky](http://lampwww.epfl.ch/~odersky/ "Martin Odersky"). Through a forum posting on the course page I understand that there are over 30,000 other registrants for this course. So far I've completed the tools setup and example assignment. I've also been active in the course forums. The actual course begins this week and runs for the next seven weeks. 
+
+I am excited about the potential distributed learning like this offers. That I can take a class about Scala with the language creator - for free - along with 30,000 other people is astonishing. There will always be a need for brick-and-mortar universities, however the ability to augment and enhance one's education with interactive online education from top educators global represents the future of education. I'm thrilled that I have this opportunity and I look forward to participating in many more Coursera courses.

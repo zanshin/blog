@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Zanshin.net Refresh"
+date: 2013-11-04T10:43:00
+tags:
+- nerdliness
+- site
+link:
+---
+Over the weekend I pushed a new version of [zanshin.net](https://zanshin.net "Zanshin.net") out into the wild. I've been wanting to redesign my site for a while now and I'm quite pleased with the new leaner look of things. In addition to a new theme I've switched from using [Octopress](http://octopress.org "Octopress") to using [Jekyll](http://jekyllrb.com "Jekyll") to drive the generation of the site. I'm working on a posting that will detail what it took to revamp the site.
+
+If you find anything amiss please let me know via the email icon over in the socail media icon row in the sidebar.
+

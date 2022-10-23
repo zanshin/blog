@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div>
+    {{ range $index, $value := ( where .Site.RegularPages "Type" "posts" | first 10 ) }}
+    {{ if (ne $index 0) }}<hr>{{ end }}
+      <section>
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+        {{ partial "metadata.html" . }}
+        {{ .Summary }}
+        {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}"> ... [Read More ...]</a>
+        {{ end }}
+      </section>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Tsar"
+date: 2012-04-25T07:56:00
+comments: true
+tags:
+- books
+link: false
+---
+{{ "1416550402" | amazon_mediumleft_image }}  
+I actually started listening to this book on CD but the penultimate disk wouldn't play in any of my available players. I returned the set to the library and checked out the hardback copy to finish the story. This book reminded me a lot of Daniel Silva's Gabriel Allon series. A bit over the top at times but a good listen, er, read. I've now started reading the first book in the series to catch up.

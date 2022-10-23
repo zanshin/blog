@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Taken"
+date: 2012-02-12T21:04:00
+comments: true
+tags:
+- books
+link: false
+---
+{{ "0399158278" | amazon_mediumleft_image }}  
+I have been a longtime fan of Robert Crais' books, and _Taken_ is a good example of Crais at his best. I basically read this book in a day as I was unable to put it down. The Elvis Cole/Joe Pike books have assumed the mantle left behind by Spenser and Hawk. _Taken_ is a bit darker than some of the series, but very well told. The only problem is that I've finished it and now have to wait until the next book to be published. 

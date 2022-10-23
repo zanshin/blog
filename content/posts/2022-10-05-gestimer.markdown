@@ -1,0 +1,11 @@
+---
+layout: link
+title: "Gestimer"
+date: 2022-10-05T22:25:00
+tags:
+- link
+link: true
+linkurl: https://thesweetsetup.com/quick-macos-reminders-gestimer/
+---
+I'm firmly in the "set timers on my watch or phone" camp, so this app probably isn't for me. The
+mechanism for setting the time, however, is very inventive.

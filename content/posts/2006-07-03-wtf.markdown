@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: WTF
+date: 2006-07-03T03:02:00
+comments: true
+tags:
+- elsewhere
+link: false
+---
+Senator Ted Stevens (R) from Alaska gives an absolutely <a href="http://blog.wired.com/27BStroke6/?entry_id=1512499" title="incomprehensible explanation of the Internet">incomprehensible explanation of the Internet</a>.
+
+Time to head for the life boats, the US is sinking....

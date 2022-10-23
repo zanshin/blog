@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: 88 Keys
+date: 2011-06-01T03:02:00
+comments: true
+tags:
+- links
+link: http://www.npr.org/2010/11/13/131245315/hauschka-gets-the-most-out-of-88-keys
+---
+Fascinatingly textured music created by adding objects to a piano.

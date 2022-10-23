@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: Charles
+date: 2008-10-31T03:02:00
+comments: true
+tags:
+- links
+link: http://www.youtube.com/v/TW-6DpC-mj8
+---
+{{ youtube(id="TW-6DpC-mj8") }}
