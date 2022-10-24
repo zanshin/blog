@@ -6,4 +6,7 @@
   {{ partial "metadata.html" . }}
   <br><br>
   {{ .Content }}
+  {{ if .Params.link }}
+    {{ partial "link-footer.html" }}
+  {{ end }}
 {{ end }}
