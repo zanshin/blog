@@ -4,19 +4,22 @@
     {{ if .Date }}
       {{ if gt $prev (.Date.Format "2006") }}
         {{ if ne $prev 3000 }}
-          </ul>
+          </table>
         {{ end }}
         <h2>{{ .Date.Format "2006" }}</h2>
-        <ul>
+        <table>
       {{ end }}
       <li style="list-style-type:none;">
-        {{ .Date.Format "Jan 02" }} »
+      <tr>
+        <td>{{ .Date.Format "Jan 02" }}</td>
+        <td>
         {{ if .Params.link }}
           <a href="{{ .Params.linkurl }}">{{ .Title }}</a>
         {{ else }}
           <a class="strong" href="{{ .Permalink }}">{{ .Title }}</a>
         {{ end }}
-      </li>
+        </td>
+      </tr>
       {{ $prev = .Date.Format "2006"}}
     {{ end }}
   {{ end }}
