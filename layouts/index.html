@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div>
-    {{ range $index, $value := ( where .Site.RegularPages "Type" "posts" | first 10 ) }}
+    {{ range $index, $value := ( .Site.RegularPages  | first 10 ) }}
     {{ if (ne $index 0) }}<hr>{{ end }}
       <section>
         <h1>
