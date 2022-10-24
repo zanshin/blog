@@ -13,7 +13,6 @@
         {{ .Date.Format "Jan 02" }} »
         {{ if .Params.link }}
           <a href="{{ .Params.linkurl }}">{{ .Title }}</a>
-          <a href="{{ .Permalink}}">&#9737;</a>
         {{ else }}
           <a class="strong" href="{{ .Permalink }}">{{ .Title }}</a>
         {{ end }}

@@ -3,7 +3,14 @@
     {{ range $index, $value := ( where .Site.RegularPages "Type" "posts" | first 10 ) }}
     {{ if (ne $index 0) }}<hr>{{ end }}
       <section>
-        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+        <h1>
+          {{ if .Params.link }}
+            <a href="{{ .Params.linkurl }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink}}">&#9737;</a>
+          {{ else }}
+            <a class="strong" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ end }}
+        </h1>
         {{ partial "metadata.html" . }}
         {{ .Summary }}
         {{ if .Truncated }}
