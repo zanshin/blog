@@ -8,4 +8,7 @@
 - [ ] Copy other single pages from Jekyll version of site
 - [ ] Get Tags page setup and working
 - [ ] Create GitHub Action that rsyncs public to Pair on commit to main branch
+- [X] Port robots.txt from old site to new
+- [X] Port keybase.txt from old site to new
+- [ ] Create new subdomain for password page
 
