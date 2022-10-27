@@ -1,0 +1,25 @@
+<footer class="post-footer" style="margin-top:5em;">
+  <section class="author">
+    <header>
+      {{ $image := resources.Get "images/profile.png" }}
+      <img class="profile" src="{{ $image.RelPermalink }}" alt="Author's profile picture">
+    </header>
+    <article>
+      <h3> {{ .Site.Params.owner }} </h3>
+      <p>
+        I am a husband, cellist, code prole, nerd, technologist, and all around good guy living
+        and working in fly-over country. You should follow me on
+        <a href="http://twitter.com/zanshin">Twitter</a>.
+      </p>
+    </article>
+  </section>
+
+  <section class="share">
+    <h4>Share this post</h4>
+    <a class="fa fa-twitter" href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+    </a>
+  </section>
+
+</footer>
