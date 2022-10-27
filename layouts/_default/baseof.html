@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
+    <!-- <body id onload="init()"> -->
     <body>
       <div class="wrapper">
         {{- partial "aside.html" . -}}
@@ -11,5 +12,6 @@
         {{- partial "footer.html" . -}}
         </section>
       </div>
+      {{- partial "scripts.html" . -}}
     </body>
 </html>
