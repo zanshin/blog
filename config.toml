@@ -24,8 +24,8 @@ title = 'Zanshin.net'
   url = "/colophon"
   weight = 3
   [[menu.main]]
-  name = "Tags"
-  url = "/tags"
+  name = "CIDR"
+  url = "/cidr"
   weight = 4
 
   [[menu.alt]]
