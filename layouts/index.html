@@ -6,16 +6,15 @@
         <h1>
           {{ if .Params.link }}
             <a href="{{ .Params.linkurl }}">{{ .Title }}</a>
-            <a href="{{ .RelPermalink}}">&#128279;</a>
+            <a style="font-size=12px;" href="{{ .RelPermalink}}">&#128279;</a>
           {{ else }}
             <a class="strong" href="{{ .RelPermalink }}">{{ .Title }}</a>
           {{ end }}
         </h1>
         {{ partial "metadata.html" . }}
-        {{ .Summary }}
-        {{ if .Truncated }}
-            <a href="{{ .RelPermalink }}"> ... [Read More ...]</a>
-        {{ end }}
+        <p>
+          {{ .Content }}
+        </p>
       </section>
     {{ end }}
   </div>
