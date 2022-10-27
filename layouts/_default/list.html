@@ -9,9 +9,8 @@
         <h2>{{ .Date.Format "2006" }}</h2>
         <table>
       {{ end }}
-      <li style="list-style-type:none;">
       <tr>
-        <td>{{ .Date.Format "Jan 02" }}</td>
+        <td style="white-space:nowrap;">{{ .Date.Format "Jan 02" }}</td>
         <td>
         {{ if .Params.link }}
           <a href="{{ .Params.linkurl }}">{{ .Title }}</a>
