@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/zanshin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://zanshin.net
+  * I am zanshin (https://keybase.io/zanshin) on keybase.
+  * I have a public key with fingerprint 297F 5FD4 0275 D2E5 48E9  F834 6CCF 1568 5344 5200
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "297f5fd40275d2e548e9f8346ccf156853445200",
+            "host": "keybase.io",
+            "key_id": "6CCF156853445200",
+            "uid": "039373641d2da1f164288af6e8ffa400",
+            "username": "zanshin"
+        },
+        "service": {
+            "hostname": "zanshin.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1397083758,
+    "expire_in": 157680000,
+    "prev": "987b64215f94e678b74a4980a912c23a021f8b642a8ec07b025caf9fdebdefd1",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owGbwMvMwMU45XvdkVflvkKMpw+8T2IIdj2XV62UlJ9SqWRVrZSdCqbSMvPSU4sK
+ijLzSpSslIwszdNM01JMDIzMTVOMUk1NLFIt0yyMTcySk9MMTc0sTI1NTEyNDAyU
+dJQy8otBOoDGJCUWp+pl5gPFgJz4zBSgqJmzsxua+lKwhIGxpbG5sZmJYYpRSqJh
+mqGZiZGFRWKaWapFWlqiCURhcWpRXmJuKlB1VWJecUZmnlKtjhJQsCwzORXkZJDN
+qAr08lJLgDoLivJL8pPzc4ASGSUlBVYgfSWVBSCF5alJ8VAj4pMy81KAvgZqKEst
+Ks7Mz1OyMgSqTC7JBJlpaGxpbmBhbG5qoaOUWlGQWZQanwlSYWpuZmEABCBrUsuA
+RlpamCcBnW9ommZpkmpmbpFkbpJoYmlhkGhpaJRsZJxoYGSYZgFSkWiRmmxgnmRg
+ZJqcmGaZlpKalJKalmKoBPJUYV6+kpUx0JmJ6UAjizPT8xJLSotSlWo7mWRYGBi5
+GNhYmUDxxsDFKQCLzRRN/r9SpayLRFdFrcpe0vPs29Ps+F1prKLyf/mPc7FeF21u
+LnT4dPrMBK1JYf9jeyfPi2sxXPVtr+7WO4tsXK5Y6H11/aMi1XQx+Ftv8CX7/xeE
+Phv9vThdNXXFHLeWe8b3D4VMYZgo/XV++jZP63XX68p107U3XnDfEVj//NOWWyz+
+XfvebJ7W/mBNFy/P2zq3Y+w+7zaYhKQWPbl3yu6d4sRGgVAl1kmWqzm/P5754I68
+4JwvXl/ubZp7ctmNQy/jtm07l9LSX9zUtqX5jusb5yuBWzn9Vi5quJZh+TRn1k1z
+178N4SbiwQ92fNPVFp/O8Ufv4J0XB9V3XP8uWtrAyliq1LuiUO5zR70qp9odl1be
+q8k3YjIaz+zk/uLPJ/7o3j9BK8b7mgoWjpfbZSP9Xi7Pjb8V9OjeVJG1vFJPwvLP
+KikHVn2M2qurM3NX3LajG1m0Vd3qv+6Ttr8ZcKBk0ZRtOd+4//yP7ixqOb2/zvmV
+2dr9ybsrLkoeut9xWmP9ijV/BRZZNnjulOs8ZPc0IrM49rtIyylzDQ5bKWPDjSUW
+PGt6t1Xa9tfN/q5qqCUUr8JQ9P5TgL+A/4d/j55a8zxd/Cyue4OQp8yTZfddxa7a
+lW3iWuX596sq8/m9hqWO/xz0ItNT3O1sbD8cPehf3ThlyVrLUAln01MPCnUMndZa
+8W99dCvJ/TWDu3v9Tu9fLAddjOckmUT6FFnZqAIA
+=pKFH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zanshin
+
+==================================================================

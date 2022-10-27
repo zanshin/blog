@@ -1,0 +1,15 @@
+---
+layout: null
+---
+User-agent: *
+Disallow:
+
+# Baiduspider
+User-agent: Baiduspider
+Disallow: /
+
+# googlebot.com
+User-agent: googlebot.com
+Disallow: /
+
+# Sitemap: {{ site.url }}/sitemap.xml
