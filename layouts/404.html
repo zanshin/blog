@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <h1> Our apologies</h1>
+  <p>
+    The page you requested is no longer here. It's likely to have been eaten by a grue.
+  </p>
+  <p>
+    Have you considered:
+    <ul>
+      <li> Checking out the <a href="/posts">Archives</a></li>
+      <li> <a href="mailto:mark@zanshin.net?Subject=404%20Error">Contacting me</a>
+      <li> Heading back to the <a href="/">Home page</a> </li>
+    </ul>
+  </p>
+  <p>
+    Or perhaps you would care to read a recent posting.
+    <table>
+      {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ) }}
+        <tr><td><a href="{{ .Permalink }}">{{ .Title }}</a></td></tr>
+      {{ end }}
+    </table>
+  </p>
+{{ end }}
