@@ -2,6 +2,11 @@ baseURL = 'http://zanshin.net/'
 languageCode = 'en-us'
 title = 'Zanshin.net'
 
+[permalinks]
+  posts = '/:year/:month/:day/:title/'
+  videos = '/:year/:month/:day/:title/'
+  links = '/:year/:month/:day/:title/'
+
 [params]
   owner = "Mark H. Nichols"
   description = "The personal site of Mark H. Nichols"
