@@ -13,7 +13,7 @@
   - [X] keybase.txt
   - [X] robots.txt
   - [X] Copy htaccess file
-    - [ ] Construct Redirect for old permalink to new permalink
+    - [X] Redirect not required - using permalink configuration setting to match old URLs
 - [X] Setup 404 error page
 
 ## Go Live Steps
