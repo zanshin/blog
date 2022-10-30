@@ -1,0 +1,15 @@
+[default]
+name = "Mark H. Nichols"
+uri = "https://zanshin.net"
+email = "mark@zanshin.net"
+twitter = "zanshin"
+image = "avatar.png"
+
+
+[marknichols]
+name = "Mark H. Nichols"
+uri = "https://zanshin.net"
+email = "mark@zanshin.net"
+twitter = "zanshin"
+image = "avatar.png"
+
