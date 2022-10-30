@@ -9,4 +9,5 @@ link: false
 ---
 This is just ridiculous.
 
-<img src="https://zanshin.net/images/TooHot.jpg" title="Too freaking hot">
+{{ $image := .ResourceGetMatch "TooHot.jpg" }}
+<img src="{{ $image.RelPermalink }}" title="Too freaking hot" >

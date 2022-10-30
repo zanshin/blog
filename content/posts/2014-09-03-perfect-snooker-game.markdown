@@ -8,5 +8,5 @@ link: https://www.youtube.com/watch?v=6-8imFvfn6Y
 ---
 An amazing run of the snooker table.
 
-{{ youtube(id="6-8imFvfn6Y") }}
+{{< youtube 6-8imFvfn6Y >}}
 

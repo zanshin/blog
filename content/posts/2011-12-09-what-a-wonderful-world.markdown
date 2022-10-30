@@ -7,4 +7,4 @@ tags:
 - links
 link: http://www.youtube.com/watch?feature=player_embedded&v=B8WHKRzkCOY
 ---
-{{ youtube(id="B8WHKRzkCOY") }} 
+{{< youtube B8WHKRzkCOY >}} 

@@ -9,4 +9,4 @@ link: http://www.youtube.com/watch?v=4t-SueJC8iI
 ---
 This. This is why I want an iPhone. Humor, creativity, wonder.
 
-{{ youtube(id="4t-SueJC8iI") }} 
+{{< youtube 4t-SueJC8iI >}} 

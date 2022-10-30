@@ -7,7 +7,8 @@ tags:
 - life
 link: false
 ---
-<img src="https://zanshin.net/images/vpm.jpg" alt="Virginia Parker McAvoy">
+{{ $image := .ResourceGetMatch "vpm.jpg" }}
+<img src="{{ $image.RelPermalink }}" alt="Virginia Parker McAvoy" >
 <br />
 Virginia Parker McAvoy
 (born March 12, 1923 - died June 7, 2005)

@@ -8,4 +8,4 @@ link: http://www.youtube.com/v/UrHoZheC8sU
 ---
 The unboxing video to end all unboxing videos.
 
-{{ youtube(id="UrHoZheC8sU") }}
+{{< youtube UrHoZheC8sU >}}

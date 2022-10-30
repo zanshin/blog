@@ -2,6 +2,14 @@ baseURL = 'http://zanshin.net/'
 languageCode = 'en-us'
 title = 'Zanshin.net'
 
+# RSS Limit, remove for unlimted
+rssLimit = 20
+
+copyright = 'Copyright (c) 1996-{year}, Mark H. Nichols; all rights reserved'
+[author]
+  name = 'Mark H. Nichols'
+  email = "mark@zanshin.net"
+
 [permalinks]
   posts = '/:year/:month/:day/:title/'
   videos = '/:year/:month/:day/:title/'
@@ -14,6 +22,9 @@ title = 'Zanshin.net'
   Twitter = "zanshin"
   GitHub = "zanshin"
   Email = "mark@zanshin.net"
+
+  # RSS main sections
+  mainSections = ["posts"]
 
 [menu]
   [[menu.main]]
@@ -45,4 +56,23 @@ title = 'Zanshin.net'
   name = "Geek"
   url = "https://geek.zanshin.net"
   weight = 3
+  [[menu.alt]]
+  name = "Password"
+  url = "https://password.zanshin.net"
+  weight = 4
+
+# Define media type
+[mediaTypes]
+  [mediaTypes."application/atom"]
+    suffixes = ["xml"] # suffix key was deprecated
+
+# Define output format
+[outputFormats.Atom]
+  mediaType = "application/atom"
+  baseName = "atom"
+  isPlainText = false
+
+# Define additional outputs for home page (index)
+[outputs]
+  home = [ "HTML", "Atom" ]
 

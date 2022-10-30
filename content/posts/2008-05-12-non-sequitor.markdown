@@ -9,4 +9,5 @@ link: false
 ---
 For many years Non Sequitor has been one of my favorite daily comics.  Today's edition is particularly good.
 
-<a title="Non Sequitor at Yahoo!" href="http://news.yahoo.com/comics/nonsequitur"><img src="https://zanshin.net/images/NonSequitor2008-05-12.jpeg" alt="Non Sequitor for May 12, 2008" width="500" height="162" /></a>
+<a title="Non Sequitor at Yahoo!" href="http://news.yahoo.com/comics/nonsequitur">{{ $image := .ResourceGetMatch "NonSequitor2008-05-12.jpeg" }}
+<img src="{{ $image.RelPermalink }}" alt="Non Sequitor for May 12, 2008" width="500" height="162" >

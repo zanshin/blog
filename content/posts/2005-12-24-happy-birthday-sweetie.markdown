@@ -15,4 +15,5 @@ The weekend of December 12 -14 finally arrived and the surprise was complete.  N
 
 On Sunday morning, before shuttling her friends back to the airport, I snapped this picture.  This was the last time Michele saw her friends, and I am very glad they all came to spend a snowy weekend together.
 
-<img src="https://zanshin.net/images/mljp.jpg" alt="(l-r) Pam, Michele, Jody, (in front) Laura" />
+{{ $image := .ResourceGetMatch "mljp.jpg" }}
+<img src="{{ $image.RelPermalink }}" alt="(l-r) Pam, Michele, Jody, (in front) Laura" >

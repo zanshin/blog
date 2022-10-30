@@ -9,5 +9,5 @@ link: http://youtu.be/9qk6Tq3LIo4
 ---
 Just. Wow.
 
-{{ youtube(id="9qk6Tq3LIo4") }}
+{{< youtube 9qk6Tq3LIo4 >}}
 (via [Kottke.org](http://kottke.org "Kottke"))

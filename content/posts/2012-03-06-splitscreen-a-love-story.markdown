@@ -7,5 +7,5 @@ tags:
 - links
 link: http://youtu.be/X-9tyIe-iEo
 ---
-{{ youtube(id="X-9tyIe-iEo") }}
+{{< youtube X-9tyIe-iEo >}}
 (via: [@benhemmersley](http://twitter.com/benhammersley/status/176981801577889793 "@benhemmersley"))

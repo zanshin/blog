@@ -9,5 +9,5 @@ link: http://www.youtube.com/v/y7h4OtFDnYE
 ---
 Richard Feynman explains how trains stay on their tracks. Hint: it's not the flanges. 
 
-{{ youtube(id="y7h4OtFDnYE") }}
+{{< youtube y7h4OtFDnYE >}}
 From <a href="http://kottke.org" title="Kottke">kottke.org</a>

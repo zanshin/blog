@@ -31,7 +31,8 @@ The Major Scale object has 8 attributes, one for each scale degree. From <a titl
 Chords are named using Roman numerals (for the most part), so you have the I chord (one chord), IV chord (four chord), and so on. The I chord always returns the 1st, 3rd, and 5th scale degrees. The IV chord always returns the 4th, 6th, and 8th scale degrees. The notes assigned to the scale degrees vary based on the scale in question.
 
 Again, to use object oriented concepts; the Major scale class would define the eight scale degrees, and methods for each of the chords (I, IV, V, V7, et cetera). Each instance of a major scale (C, G, D, A, et cetera) would inherit the scale degrees and chord methods from the Major scale class. Something like this:
-<p style="text-align: center;"><img class="aligncenter" title="scale class model" src="https://zanshin.net/images/scales.jpg" alt="" width="507" height="365" /></p>
+<p style="text-align: center;">{{ $image := .ResourceGetMatch "scales.jpg" }}
+<img src="{{ $image.RelPermalink }}" class="aligncenter" title="scale class model" alt="" width="507" height="365" >
 
 The C Major scale is comprised of the following notes: C D E F G A B C. So a I chord in C Major would return C-E-G as the notes. A IV chord, F-A-C.
 

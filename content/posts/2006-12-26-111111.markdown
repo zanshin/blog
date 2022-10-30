@@ -8,7 +8,8 @@ tags:
 link: false
 ---
 
-<p style="float: right; margin-left: 10px; margin-bottom: 10px"> <a href="http://www.flickr.com/photos/zanshin/334220121/" title="photo sharing"><img src="http://farm1.static.flickr.com/128/334220121_bd3f63e8eb_m.jpg" style="border: 2px solid #000000" /></a></p>
+<p style="float: right; margin-left: 10px; margin-bottom: 10px"> <a href="http://www.flickr.com/photos/zanshin/334220121/" title="photo sharing">{{ $image := .ResourceGetMatch "334220121_bd3f63e8eb_m.jpg" }}
+<img src="{{ $image.RelPermalink }}" style="border: 2px solid #000000" >
 <span style="font-size: 0.7em; margin-top: 0px">
 <a href="http://www.flickr.com/photos/zanshin/334220121/">111111</a></span>
 

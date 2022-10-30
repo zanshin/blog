@@ -11,7 +11,8 @@ O'Reilly is running an <a href="http://www.macdevcenter.com/pub/a/mac/2003/09/30
 
 Here then is my dock and its contents:
 
-<a href="http://www.zanshin.net/images/mydock.png"><img src="http://www.zanshin.net/images/mydock.png" alt="click for full size image of my mac os x dock" border="1" width="500" /></a>
+<a href="http://www.zanshin.net/images/mydock.png">{{ $image := .ResourceGetMatch "mydock.png" }}
+<img src="{{ $image.RelPermalink }}" alt="click for full size image of my mac os x dock" border="1" width="500" >
 
 Finder, Safari, iTunes, Mail, iCal, NetNewsWire, Proteus, iChat AV, Yahoo Messenger, ICQ, MSN Messenger, Calculator, Comictastic, Sherlock, Address Book, System Preferences, Terminal, BBEdit, Transmit, CSSEdit, Word, Excel, Mozilla Firebird, Camino, Enigmo, DropZip, iPulse, harddrive, Home folder, Applications folder, TitanTV shortcut, MT Blog Entry shortcut, and the Trash can.
 

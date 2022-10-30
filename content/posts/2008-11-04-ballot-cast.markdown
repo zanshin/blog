@@ -9,7 +9,8 @@ link: false
 ---
 At about 6:55 am this morning I cast my ballot in the 2008 elections.  The whole process took about 30~35 minutes, which is nothing compared to the lines in some states for early voting.  I was only outside for about 5 minutes, and then the line moved indoors.
 
-<img class="aligncenter" title="Line at polling location" src="https://zanshin.net/images/line.jpg" alt="" width="480" height="360" />
+{{ $image := .ResourceGetMatch "line.jpg" }}
+<img src="{{ $image.RelPermalink }}" class="aligncenter" title="Line at polling location" alt="" width="480" height="360" >
 
 Here are my notes, hastily taken on my Q Phone during my wait.
 
@@ -29,11 +30,13 @@ Line is moving a bit faster now.
 
 Here are cell phone pictures from my summary page:
 
-<img class="aligncenter" title="Obama / Biden" src="https://zanshin.net/images/obama_biden.jpg" alt="" width="480" height="360" />
+{{ $image := .ResourceGetMatch "line.jpg" }}
+<img src="{{ $image.RelPermalink }}" class="aligncenter" title="Line at polling location" alt="" width="480" height="360" >
 
 And for my state level representative, <a title="Sean Tevis" href="http://seantevis.com/kansas/3000/running-for-office-xkcd-style/">this guy</a>:
 
-<img class="aligncenter" title="Sean Tevis" src="https://zanshin.net/images/tevis.jpg" alt="" width="480" height="360" />
+{{ $image := .ResourceGetMatch "line.jpg" }}
+<img src="{{ $image.RelPermalink }}" class="aligncenter" title="Line at polling location" alt="" width="480" height="360" >
 
 6:58 am - Done.  Got my sticker and I'm headed to work.
 

@@ -13,7 +13,8 @@ It actually works.
 
 Sibylle was able to play several measure of her composition normally, capturing the music in Sibelius.  The score was littered with the now familiar sixteenth notes and rests.  Selecting Plugins from the menu bar, and then the Simplify Notation plugin itself produces a sub-menu with several choices.  The one that we used was called "Renotate performance."  
 
-<img src="https://zanshin.net/images/renotate.JPG" alt="Plugins | Simplify Notation | Renotate Performance" width="378" height="327" />
+{{ $image := .ResourceGetMatch "renotate.JPG" }}
+<img src="{{ $image.RelPermalink }}" alt="Plugins | Simplify Notation | Renotate Performance" width="378" height="327" >
 
 While we still feel that a plugin, and the extra step it entails, shouldn't be necessary to capture a score, having the plugin does make capturing the score possible.
 

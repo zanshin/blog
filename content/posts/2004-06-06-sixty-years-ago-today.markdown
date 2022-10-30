@@ -7,7 +7,8 @@ tags:
 - issues
 link: false
 ---
-<img src="https://zanshin.net/images/dday.gif" alt="D-Day">
+{{ $image := .ResourceGetMatch "dday.gif" }}
+<img src="{{ $image.RelPermalink }}" alt="D-Day" >
 
 [ first seen at <a href="http://veerle.duoh.com/" title="Veerle's Blog"> Veerle's Blog</a> ]
 

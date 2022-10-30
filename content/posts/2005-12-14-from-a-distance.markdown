@@ -13,5 +13,6 @@ One song off the album in particular has really touched me. Her version of <em>F
 
 If you have iTunes (and why wouldn't you have it?) you can get the song via this link:
 <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?selectedItemId=250249&amp;playListId=250255&amp;s=143441">
-<img src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes61x15dark.gif" alt="From a Distance" height="15" width="61" />
+{{ $image := .ResourceGetMatch "badgeitunes61x15dark.gif" }}
+<img src="{{ $image.RelPermalink }}" alt="From a Distance" height="15" width="61" >
 </a>

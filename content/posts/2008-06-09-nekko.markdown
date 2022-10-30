@@ -7,6 +7,7 @@ tags:
 - family
 link: false
 ---
-<img src="https://zanshin.net/images/nekko_20080609.jpg" alt="Nekko" width="400" height="300" />
+{{ $image := .ResourceGetMatch "nekko_20080609.jpg" }}
+<img src="{{ $image.RelPermalink }}" alt="Nekko" width="400" height="300" >
 
 Nekko (1997 - 2008)

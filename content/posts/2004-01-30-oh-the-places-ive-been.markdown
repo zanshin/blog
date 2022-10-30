@@ -7,6 +7,8 @@ tags:
 - life
 link: false
 ---
-<p class="image"><img width="450" src="http://world66.com/myworld66/visitedCountries/colormap?visited=ATCADEGDITLIMXVCCHUKUS"></p><br/>
-<p class="image"><img width="450" src="http://world66.com/myworld66/visitedStates/statemap?visited=AKAZARCACOCTDCDEFLGAHIIDILINIAKSKYLAMEMDMAMIMNMSMOMTNENVNHNJNMNYNCNDOHOKORPARISCSDTNTXUTVTVAWAWVWIWY"></p><br/>
+<p class="image">{{ $image := .ResourceGetMatch "colormap?visited=ATCADEGDITLIMXVCCHUKUS" }}
+<img src="{{ $image.RelPermalink }}" width="450" >
+<p class="image">{{ $image := .ResourceGetMatch "colormap?visited=ATCADEGDITLIMXVCCHUKUS" }}
+<img src="{{ $image.RelPermalink }}" width="450" >
 <p><a href="http://world66.com/myworld66/visitedStates">Where have you been?</a></p>

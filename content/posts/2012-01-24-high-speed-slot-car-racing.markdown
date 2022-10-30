@@ -9,4 +9,4 @@ link: http://youtu.be/GtwkRd6zHwg
 ---
 These cars are unbelievably fast. The action starts about 55 seconds into the video. (via: [Laughing Squid](http://laughingsquid.com/high-speed-slot-car-racing/ "Laughing Squid: High Speed Slot Car Racing"))
 
-{{ youtube(id="GtwkRd6zHwg") }}
+{{< youtube GtwkRd6zHwg >}}

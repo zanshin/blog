@@ -9,6 +9,6 @@ link: http://www.youtube.com/v/c7e9vpxFWcI
 ---
 This unofficial Blackberry Touch ad is outstanding.
 
-{{ youtube(id="c7e9vpxFWcI") }}
+{{< youtube c7e9vpxFWcI >}}
 
 Personally, I think the blackberry must be frozen.

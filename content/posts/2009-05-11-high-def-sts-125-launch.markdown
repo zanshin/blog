@@ -9,4 +9,4 @@ link: http://www.youtube.com/v/ytqGMd6P8qk
 ---
 I am sorry that I never got to Florida to see a shuttle launch. Every single one is incredible to watch.
 
-{{ youtube(id="ytqGMd6P8qk") }}
+{{< youtube ytqGMd6P8qk >}}

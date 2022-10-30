@@ -7,5 +7,5 @@ tags:
 - links
 link: http://youtu.be/XoMN-zg7r3M
 ---
-{{ youtube(id="XoMN-zg7r3M") }}
+{{< youtube XoMN-zg7r3M >}}
 Simply wonderful.

@@ -27,7 +27,8 @@ Next you will need to install a <a title="Network Beacon" href="http://www.chaot
 
 Here's an image of how to configure the beacon on the listening machine:
 
-<img class="alignnone" src="https://zanshin.net/images/beacon.png" alt="" width="451" height="377" />
+{{ $image := .ResourceGetMatch "beacon.png" }}
+<img src="{{ $image.RelPermalink }}" class="alignnone" alt="" width="451" height="377" >
 
  
 

@@ -11,6 +11,7 @@ For what it is worth, I predict that Barack Hussein Obama will become the 44th P
 
 Here's my map:
 
-<img class="aligncenter" title="375 - 163" src="https://zanshin.net/images/375-163.jpg" alt="" width="480" height="350" />
+{{ $image := .ResourceGetMatch "375-163.jpg" }}
+<img src="{{ $image.RelPermalink }}" class="aligncenter" title="375 - 163" alt="" width="480" height="350" >
 
 Make your own at: <a title="270 To Win" href="http://270towin.com">270towin.com</a>.

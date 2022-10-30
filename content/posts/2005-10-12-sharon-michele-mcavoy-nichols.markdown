@@ -7,7 +7,8 @@ tags:
 - family
 link: false
 ---
-<img src="https://zanshin.net/images/mmn.JPG" alt="Michele Nichols" height="338" width="450" />
+{{ $image := .ResourceGetMatch "mmn.JPG" }}
+<img src="{{ $image.RelPermalink }}" alt="Michele Nichols" height="338" width="450" >
 December 24, 1949 - October 10, 2005
 
 <em>Like one, that on a lonesome road

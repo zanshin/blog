@@ -9,4 +9,4 @@ link: http://www.youtube.com/watch?v=Ws6AAhTw7RA
 ---
 This made my head asplode. 
 
-{{ youtube(id="Ws6AAhTw7RA") }} 
+{{< youtube Ws6AAhTw7RA >}} 

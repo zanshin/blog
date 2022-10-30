@@ -9,4 +9,4 @@ link: http://www.youtube.com/embed/ShbC5yVqOdI
 ---
 He rides a bike across a rope. Unbelievable. 
 
-{{ youtube(id="ShbC5yVqOdI") }} 
+{{< youtube ShbC5yVqOdI >}} 

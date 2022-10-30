@@ -9,4 +9,4 @@ link: http://www.youtube.com/watch?v=gSYwPTUKvdw
 ---
 Wonderfully done.
 
-{{ youtube(id="gSYwPTUKvdw") }} 
+{{< youtube gSYwPTUKvdw >}} 

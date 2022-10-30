@@ -9,4 +9,4 @@ link: http://www.youtube.com/playlist?list=PLCFB38D54EAF55D16
 ---
 This YouTube playlist contains all of _Dark Side of the Moon_.
 
-{{ youtube(id="PLCFB38D54EAF55D16") }} 
+{{< youtube PLCFB38D54EAF55D16 >}} 

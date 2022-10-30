@@ -7,6 +7,6 @@ tags:
 - links
 link: http://youtu.be/GBaHPND2QJg
 ---
-{{ youtube(id="GBaHPND2QJg") }}
+{{< youtube GBaHPND2QJg >}}
 
 The reaction of the little children is priceless.

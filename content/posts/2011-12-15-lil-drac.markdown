@@ -9,4 +9,4 @@ link: http://www.youtube.com/watch?feature=player_embedded&v=FkeSSdwbnPg
 ---
 "... and he rocks."
 
-{{ youtube(id="FkeSSdwbnPg") }} 
+{{< youtube FkeSSdwbnPg >}} 

@@ -7,6 +7,7 @@ tags:
 - family
 link: false
 ---
-<img src="https://zanshin.net/images/hrn.jpg" alt="Helen Riley Nichols portrait" height="563" width="425" />
+{{ $image := .ResourceGetMatch "hrn.jpg" }}
+<img src="{{ $image.RelPermalink }}" alt="Helen Riley Nichols portrait" height="563" width="425" >
 
 March 13, 1928 - May 28, 2006

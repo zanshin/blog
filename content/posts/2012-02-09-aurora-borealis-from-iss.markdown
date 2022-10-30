@@ -7,5 +7,5 @@ tags:
 - links
 link: http://www.youtube.com/watch?v=MVgpPWSmy9g
 ---
-{{ youtube(id="MVgpPWSmy9g") }}
+{{< youtube MVgpPWSmy9g >}}
 (via: [@iratwo](https://twitter.com/#!/iratwo "@iratwo"))	

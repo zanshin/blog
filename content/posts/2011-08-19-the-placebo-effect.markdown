@@ -9,4 +9,4 @@ link: http://www.youtube.com/embed/yfRVCaA5o18
 ---
 The Strange Powers of the Placebo Effect &rarr;  
 
-{{ youtube(id="yfRVCaA5o18") }}
+{{< youtube yfRVCaA5o18 >}}

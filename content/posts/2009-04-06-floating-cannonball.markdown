@@ -7,6 +7,6 @@ tags:
 - links
 link: http://www.youtube.com/v/Rm5D47nG9k4
 ---
-{{ youtube(id="Rm5D47nG9k4") }}
+{{< youtube Rm5D47nG9k4 >}}
 
 Via <a href="http://kottke.org" title="Floating cannonball link from Kottke">Kottke.org</a>

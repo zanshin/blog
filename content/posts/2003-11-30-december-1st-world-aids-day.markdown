@@ -7,7 +7,8 @@ tags:
 - issues
 link: false
 ---
-<a href="http://linkandthink.org/"><img src="https://zanshin.net/images/aidsdaylinkandthink.gif" width="350" height="46" /></a>
+<a href="http://linkandthink.org/">{{ $image := .ResourceGetMatch "aidsdaylinkandthink.gif" }}
+<img src="{{ $image.RelPermalink }}" width="350" height="46" >
 
 Five million people acquired HIV in 2003, bringing the world total to 40,000,000 people who are living with HIV today.
 

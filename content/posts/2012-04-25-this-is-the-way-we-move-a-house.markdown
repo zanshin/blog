@@ -9,4 +9,4 @@ link: http://youtu.be/A5iu3Ze6Aeg
 ---
 The state is rebuilding a grade level crossing near our home, turning it into an overpass. This house used to be on the southeast corner of the intersection, where there will soon be an on-ramp. This morning while waiting for an appointment to start I happened to be in the right place at the right time to take this video. The house had to be threaded through each intersection's traffic lights.
 
-{{ youtube(id="A5iu3Ze6Aeg") }}
+{{< youtube A5iu3Ze6Aeg >}}

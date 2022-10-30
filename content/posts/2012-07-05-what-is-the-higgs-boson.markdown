@@ -7,6 +7,6 @@ tags:
 - links
 link: http://youtu.be/QG8g5JW64BA
 ---
-{{ youtube(id="QG8g5JW64BA") }}
+{{< youtube QG8g5JW64BA >}}
 
 An explanation that (almost) makes you think you understand the Higgs. Almost. 

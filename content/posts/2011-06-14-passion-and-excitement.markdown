@@ -9,4 +9,4 @@ link: http://www.youtube.com/embed/-aoUxKfHS9I?rel=0
 ---
 I love the passion and excitement and wonder that Han Na Chang brings to her playing. She's having a blast.
 
-{{ youtube(id="-aoUxKfHS9I") }}
+{{< youtube -aoUxKfHS9I >}}

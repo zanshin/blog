@@ -9,6 +9,7 @@ link: false
 ---
 One of the things I like about Apple Computer is their sense of social conscience. Take their home page today for example.
 
-<img src="https://zanshin.net/images/rosaparks.jpg" alt="Apple Think Different Rosa Parks" width="470" />
+{{ $image := .ResourceGetMatch "rosaparks.jpg" }}
+<img src="{{ $image.RelPermalink }}" alt="Apple Think Different Rosa Parks" width="470" >
 
 Think Different indeed.

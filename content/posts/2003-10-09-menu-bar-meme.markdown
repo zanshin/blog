@@ -11,7 +11,8 @@ Last week's Dock meme, started by <a href="http://www.macdevcenter.com/pub/a/mac
 
 I got to wondering what people have in their menu bar. I find that I have two sets of applications, those that have good menu bar access and those that work better from the Dock. The image below is my menu bar.
 
-<img alt="menubar_items.png" src="http://www.zanshin.net/images/menubar_items.png" width="419" height="32" border="0" />
+{{ $image := .ResourceGetMatch "menubar_items.png" }}
+<img src="{{ $image.RelPermalink }}" alt="menubar_items.png" width="419" height="32" border="0" >
 
 from left to right: <a href="http://ranchero.com/tigerlaunch/">Tiger Launch</a>, <a href="http://homepage.mac.com/locationmanager/">Location X</a>, <a href="http://www.codetek.com/php/virtual.php">CodeTek Virtual Desktop</a>, <a href="http://www.konfabulator.com/">Konfabulator</a>, <a href="http://www.apple.com/applescript/">AppleScript</a>, <a href="http://www.apple.com/ichat/">iChat AV</a> status (or <a href="http://www.indigofield.com/">Proteus</a> when it is running), <a href="http://whatdoiknow.org/archives/000957.shtml">Keychain access</a>, sound control, display control, charge indicator, <a href="http://www.apple.com/isync/">iSync</a>, clock, and <a href="http://www.obdev.at/products/launchbar/">Launch Bar</a>.
 

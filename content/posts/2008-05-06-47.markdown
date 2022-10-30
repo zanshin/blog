@@ -11,4 +11,5 @@ As you can see, I was a tiny baby forty-seven years ago.  These images were tak
 
 He was able to give her the last appointment of the day, and immediately had her start feeding me with an eye dropper every 2 hours.  Neither she, nor I, got much sleep, but I did start gaining weight.  By May 28th, when these pictures were taken, I was back up to 6 pounds 8 ounces.
 
-<img src="https://zanshin.net/images/Mark_may_1961.jpg" alt="Mark, May 28, 1961" width="312" height="456" /><img src="https://zanshin.net/images/Mark_with_hand_May_1961.jpg" alt="With my Mother's hand" width="312" height="324" />
+{{ $image := .ResourceGetMatch "Mark_with_hand_May_1961.jpg" }}
+<img src="{{ $image.RelPermalink }}" alt="Mark, May 28, 1961" width="312" height="456" alt="With my Mother's hand" width="312" height="324" >

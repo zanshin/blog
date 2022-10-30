@@ -10,4 +10,4 @@ link: http://youtu.be/lLlO3iIFTzg
 
 Fascinating footage of Shaolin monks performing in slow motion.
 
-{{ youtube(id="lLlO3iIFTzg") }}
+{{< youtube lLlO3iIFTzg >}}

@@ -15,5 +15,6 @@ After spending my Junior year learning all I could from the teacher I spend my S
 
 This reminiscence was triggered by seeing the following image this morning. Part of a larger article about <em><a title="The Art of Unix Usability" href="http://catb.org/~esr/writings/taouu/taouu.html" target="_blank">The Art of Unix Usability</a></em> by Eric Steven Raymond. This is my second computer interface.
 <p style="text-align: center;"></p>
-<p style="text-align: center;"><a href="https://zanshin.net/images/front.jpg"><img class="aligncenter size-full wp-image-2306" title="front" src="https://zanshin.net/images/front.jpg" alt="" width="565" height="982" /></a></p>
+<p style="text-align: center;"><a href="https://zanshin.net/images/front.jpg">{{ $image := .ResourceGetMatch "front.jpg" }}
+<img src="{{ $image.RelPermalink }}" class="aligncenter size-full wp-image-2306" title="front" alt="" width="565" height="982" >
 <p style="text-align: left;">The first computer interface I ever used was a thermal paper terminal with a 1200 BAUD acoustic coupler built into the back. It probably weight 40 pounds and was terribly slow even in the mid 1970s, but it opened up an entire universe for me and quite literally changed the course of my life. I have been "in" computers ever since.</p>

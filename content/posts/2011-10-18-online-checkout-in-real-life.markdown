@@ -10,4 +10,4 @@ link: http://www.youtube.com/watch?v=3Sk7cOqB9Dk
 Yes, it's a Google Analytics commercial, but it makes a really good
 point.
 
-{{ youtube(id="3Sk7cOqB9Dk") }} 
+{{< youtube 3Sk7cOqB9Dk >}} 

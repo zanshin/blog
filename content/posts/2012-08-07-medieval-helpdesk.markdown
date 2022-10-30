@@ -7,5 +7,5 @@ tags:
 - links
 link: http://youtu.be/pQHX-SjgQvQ
 ---
-{{ youtube(id="pQHX-SjgQvQ") }}
+{{< youtube pQHX-SjgQvQ >}}
 Hilariously accurate.

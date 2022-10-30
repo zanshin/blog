@@ -9,4 +9,4 @@ link: http://youtu.be/3qqE_WmagjY
 ---
 In honor of Carol Burnett's birthday today.
 
-{{ youtube(id="3qqE_WmagjY") }}
+{{< youtube 3qqE_WmagjY >}}

@@ -7,4 +7,4 @@ tags:
 - links
 link: http://www.youtube.com/v/tVlbvxd0Q10
 ---
-{{ youtube(id="tVlbvxd0Q10") }}
+{{< youtube tVlbvxd0Q10 >}}

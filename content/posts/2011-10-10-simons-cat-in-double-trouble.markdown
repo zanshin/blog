@@ -9,4 +9,4 @@ link: http://www.youtube.com/embed/3VLcLH97eRw
 ---
 Riotously funny.
 
-{{ youtube(id="3VLcLH97eRw"") }} 
+{{< youtube 3VLcLH97eRw >}}

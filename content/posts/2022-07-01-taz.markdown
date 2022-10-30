@@ -6,6 +6,7 @@ tags:
 - family
 link:
 ---
-<img src="https://zanshin.net/images/taz.jpg" alt="Taz" width="400" height="300" />
+{{ $image := .ResourceGetMatch "taz.jpg" }}
+<img src="{{ $image.RelPermalink }}" alt="Taz" width="400" height="300" >
 
 Taz (2003 - 2022)

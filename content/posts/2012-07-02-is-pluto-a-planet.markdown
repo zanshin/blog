@@ -9,5 +9,5 @@ link: http://www.youtube.com/watch?feature=iv&v=Z_2gbGXzFbs
 ---
 In a word, no. C. G. P. Grey once again delivers.
 
-{{ youtube(id="iv&v=Z_2gbGXzFbs") }}
+{{< youtube Z_2gbGXzFbs >}}
 

@@ -9,4 +9,4 @@ link: http://youtu.be/pQHnMj6dxj4
 ---
 Scan an object and then re-create it via some powder and resin on a 3D printer. This changes everything.
 
-{{ youtube(id="pQHnMj6dxj4") }}
+{{< youtube pQHnMj6dxj4 >}}

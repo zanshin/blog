@@ -9,5 +9,5 @@ link: http://youtu.be/GZadCj8O1-0
 ---
 This is excellent.  
 
-{{ youtube(id="GZadCj8O1-0") }}
+{{< youtube GZadCj8O1-0 >}}
 (via: Everybody)

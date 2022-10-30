@@ -5,7 +5,6 @@ date: 2022-10-13T08:23:00
 tags:
 - nerdliness
 link:
-url: /2022/10/13/check-if-reboot-is-required-on-linux/
 ---
 Here are some ways to determine if your Linux system requires a reboot following an updated.
 

@@ -9,4 +9,4 @@ link: http://www.youtube.com/embed/qjHoedoSUXY
 ---
 Amazing juggling, both rhythmic and musical.
 
-{{ youtube(id="qjHoedoSUXY") }}
+{{< youtube qjHoedoSUXY >}}

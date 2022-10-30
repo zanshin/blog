@@ -19,4 +19,5 @@ Finally, she appreciated the <em><a href="https://zanshin.net/wp-admin/;http://w
 <strong>With all that in mind...</strong>
 I give you the November 13, 2007 <em>Zits</em> comic strip.
 
-<a href="http://www.arcamax.com/newspics/4/425/42585.gif" title="Zits 11-13-2007"><img src="http://www.zanshin.net/images/zits_20071113.gif" alt="Zits 2007-11-13" height="136" width="425" /></a>
+<a href="http://www.arcamax.com/newspics/4/425/42585.gif" title="Zits 11-13-2007">{{ $image := .ResourceGetMatch "zits_20071113.gif" }}
+<img src="{{ $image.RelPermalink }}" alt="Zits 2007-11-13" height="136" width="425" >

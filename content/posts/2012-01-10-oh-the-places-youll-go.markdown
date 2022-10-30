@@ -9,4 +9,4 @@ link: http://youtu.be/ahv_1IS7SiE
 ---
 Enthralling. (Mildly NSFW)
 
-{{ youtube(id="ahv_1IS7SiE") }} 
+{{< youtube ahv_1IS7SiE >}} 

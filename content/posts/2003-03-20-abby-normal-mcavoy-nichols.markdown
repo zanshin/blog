@@ -8,4 +8,5 @@ tags:
 link: false
 ---
 
-<p align="center"> <img src="http://www.zanshin.net/images/abby.jpg" alt="Abby ~ 1993-2003" border="0" height="180" width="240" />1993-2003</p>
+<p align="center"> {{ $image := .ResourceGetMatch "abby.jpg" }}
+<img src="{{ $image.RelPermalink }}" alt="Abby ~ 1993-2003" border="0" height="180" width="240" >

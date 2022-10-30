@@ -11,5 +11,6 @@ I'm sure that allusions to the iconic _<a href="http://imdb.com/find?s=all&q=spi
 
 Here's mine.
 
-<img src="http://www.zanshin.net/images/eleven.png" alt="10.4.11">
+{{ $image := .ResourceGetMatch "eleven.png" }}
+<img src="{{ $image.RelPermalink }}" alt="10.4.11" >
 _Mine goes to eleven._

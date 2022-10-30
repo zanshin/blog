@@ -9,4 +9,4 @@ link: http://www.youtube.com/v/8O-hCtPfef8
 ---
 A stunning performance.
 
-{{ youtube(id="8O-hCtPfef8") }}
+{{< youtube 8O-hCtPfef8 >}}

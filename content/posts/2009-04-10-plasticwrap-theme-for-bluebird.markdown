@@ -15,6 +15,7 @@ Working from one of the provided themes, and using the <a title="PlasticCodeWrap
 
 <strong>Updated</strong>: Here's a screen shot of the theme in action.
 
-<img class="aligncenter" title="PlasticWrap theme image" src="https://zanshin.net/images/plasticWrap.png" alt="" width="389" height="671" />
+{{ $image := .ResourceGetMatch "plasticWrap.png" }}
+<img src="{{ $image.RelPermalink }}" class="aligncenter" title="PlasticWrap theme image" alt="" width="389" height="671" >
 
 Tell all your friends. Enjoy.

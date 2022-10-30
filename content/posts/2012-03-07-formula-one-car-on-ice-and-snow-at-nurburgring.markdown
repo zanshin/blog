@@ -9,7 +9,7 @@ link: http://www.youtube.com/watch?v=KfOEJ-HZ1-Q
 ---
 The chief driving instructor at Nürburgring takes a F1 car out for a spin -- on ice and snow. The second half of the video is better as it doesn't have the cheesy music sound track. 
 
-{{ youtube(id="KfOEJ-HZ1-Q") }}
+{{< youtube KfOEJ-HZ1-Q >}}
 
 For comprison sake, here's the fastest lap ever done.
 

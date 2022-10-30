@@ -8,4 +8,4 @@ link: http://youtu.be/tlI022aUWQQ
 ---
 CGP Grey is wonderful at explaining things. This is as good an explanation of [Reddit](http://reddit.com "Reddit") as you are likely to find.
 
-{{ youtube(id="tlI022aUWQQ") }}
+{{< youtube tlI022aUWQQ >}}

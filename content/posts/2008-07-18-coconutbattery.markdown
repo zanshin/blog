@@ -14,6 +14,7 @@ Here are the results for my Powerbook:
 
  
 
-[caption id="" align="aligncenter" width="276" caption="Fig. coconut battery results"]<img class=" " title="69 months and still strong" src="https://zanshin.net/images/coconutBattery.png" alt="coconut battery results" width="276" height="426" />[/caption]
+[caption id="" align="aligncenter" width="276" caption="Fig. coconut battery results"]{{ $image := .ResourceGetMatch "coconutBattery.png" }}
+<img src="{{ $image.RelPermalink }}" class=" " title="69 months and still strong" alt="coconut battery results" width="276" height="426" >[/caption]
 
 Being a "Class A Nerd," that fact that my battery has only lost 2% of its original capacity in 69 months of continuous use pleases me to no end.

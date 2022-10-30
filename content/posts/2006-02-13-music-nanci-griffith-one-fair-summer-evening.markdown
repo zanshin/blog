@@ -12,7 +12,8 @@ I originally posted about this album <a href="http://www.zanshin.net/blogs/00070
 Now I want to say that the entire album is outstanding. I never would have believed that I would enjoy a country (admittedly cosmopolitan country) so much, but I do. You will too. Get it via the iTunes Music Store link below.
 
 <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?selectedItemId=250249&playListId=250255&s=143441">
-<img height="15" width="61" alt="From a Distance" src="http://ax.phobos.apple.com.edgesuite.net/images/badgeitunes61x15dark.gif">
+{{ $image := .ResourceGetMatch "badgeitunes61x15dark.gif" }}
+<img src="{{ $image.RelPermalink }}" height="15" width="61" alt="From a Distance" >
 </a>
 
 Rating: Infectiously good

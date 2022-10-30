@@ -7,4 +7,5 @@ tags:
 - life
 link: false
 ---
-<p class="image"><img src="https://zanshin.net/images/minus10.jpg"></p>
+<p class="image">{{ $image := .ResourceGetMatch "minus10.jpg" }}
+<img src="{{ $image.RelPermalink }}" >

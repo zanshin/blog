@@ -9,4 +9,4 @@ link: http://youtu.be/84aWtseb2-4
 ---
 I, for one, would be happy to see daylight savings time ended.  
 
-{{ youtube(id="84aWtseb2-4") }} 
+{{< youtube 84aWtseb2-4 >}} 

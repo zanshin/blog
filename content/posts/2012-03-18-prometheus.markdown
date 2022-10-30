@@ -9,4 +9,4 @@ link: http://youtu.be/HHcHYisZFLU
 ---
 Official Full HD Trailer. 
 
-{{ youtube(id="HHcHYisZFLU") }}
+{{< youtube HHcHYisZFLU >}}

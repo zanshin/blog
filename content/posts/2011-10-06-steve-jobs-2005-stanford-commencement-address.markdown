@@ -7,4 +7,4 @@ tags:
 - nerdliness
 link: http://www.youtube.com/embed/UF8uR6Z6KLc
 ---
-{{ youtube(id="UF8uR6Z6KLc"") }} 
+{{< youtube UF8uR6Z6KLc >}}

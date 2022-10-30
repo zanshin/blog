@@ -7,4 +7,5 @@ tags:
 - life
 link: false
 ---
-<img src="https://zanshin.net/images/SpamIsTheDevil.jpg" title="Spam is the Devil" border="1" />
+{{ $image := .ResourceGetMatch "SpamIsTheDevil.jpg" }}
+<img src="{{ $image.RelPermalink }}" title="Spam is the Devil" border="1" >

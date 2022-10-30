@@ -11,4 +11,5 @@ I first saw this image over at <a href="http://iheartmena.com" title="i <3 mena"
 
 The tracks of Jeanie and Francis as they cross Florida at frighteningly similar to my eye. Spooky.
 
-<img src="https://zanshin.net/images/jeaniefrancis.gif" alt="hurricane track comparison">
+{{ $image := .ResourceGetMatch "jeaniefrancis.gif" }}
+<img src="{{ $image.RelPermalink }}" alt="hurricane track comparison" >

@@ -8,4 +8,4 @@ link: https://www.youtube.com/watch?v=MOXQo7nURs0
 ---
 Superb. 
 
-{{ youtube(id="MOXQo7nURs0") }}
+{{< youtube MOXQo7nURs0 >}}

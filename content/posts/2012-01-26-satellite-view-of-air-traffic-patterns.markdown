@@ -9,4 +9,4 @@ link: http://youtu.be/p8LE-HGyrpw
 ---
 My what busy airspace you have!
 
-{{ youtube(id="p8LE-HGyrpw") }}
+{{< youtube p8LE-HGyrpw >}}

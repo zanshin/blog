@@ -9,4 +9,4 @@ link: http://www.youtube.com/embed/EBYPlcSD490
 ---
 Incredible video of saving a humpback whale trapped in a fishing net.
 
-{{ youtube(id="EBYPlcSD490") }}
+{{< youtube EBYPlcSD490 >}}

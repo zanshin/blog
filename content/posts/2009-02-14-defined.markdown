@@ -25,6 +25,7 @@ a married woman considered in relation to her husband.
 </ul>
 ORIGIN Old English wīf [woman,] of Germanic origin; related to Dutch <strong><em>wijf</em></strong> and German <strong><em>Weib</em></strong>
 ## Mark and Sibylle
-<img class="alignnone" title="Mark and Sibylle" src="https://zanshin.net/images/20090212.jpg" alt="" width="400" height="286" />
+{{ $image := .ResourceGetMatch "20090212.jpg" }}
+<img src="{{ $image.RelPermalink }}" class="alignnone" title="Mark and Sibylle" alt="" width="400" height="286" >
 
 Husband and Wife. February 12, 2009.

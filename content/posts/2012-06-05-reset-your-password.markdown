@@ -7,5 +7,5 @@ tags:
 - links
 link: http://youtu.be/fcG7ftYMObA
 ---
-{{ youtube(id="fcG7ftYMObA") }}
+{{< youtube fcG7ftYMObA >}}
 (via [Laughing Squid](http://laughingsquid.com/reset-your-password-a-funny-video-about-changing-your-password/ "Laughing Squid"))

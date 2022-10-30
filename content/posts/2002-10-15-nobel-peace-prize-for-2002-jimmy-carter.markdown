@@ -8,5 +8,6 @@ tags:
 link: false
 ---
 <a href="http://www.nobel.no/eng_peace_2002.html">
-<img src="http://www.zanshin.net/images/carter.jpg" border="0" height="320" width="255" />
+{{ $image := .ResourceGetMatch "carter.jpg" }}
+<img src="{{ $image.RelPermalink }}" border="0" height="320" width="255" >
 </a>

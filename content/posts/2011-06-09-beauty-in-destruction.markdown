@@ -9,4 +9,4 @@ link: http://www.youtube.com/embed/sK50So-yYRU
 ---
 There is something strangely beautiful about building implosions.
 
-{{ youtube(id="sK50So-yYRU") }}
+{{< youtube sK50So-yYRU >}}
