@@ -15,10 +15,10 @@
   - [X] Copy htaccess file
     - [X] Redirect not required - using permalink configuration setting to match old URLs
 - [X] Setup 404 error page
-- [ ] Complete scripts partial with
-  - [ ] Mint
-  - [ ] Matomo
-- [ ] Setup RSS feed
+- [X] Complete scripts partial with
+  - [X] Mint
+  - [X] Matomo
+- [X] Setup RSS feed
 
 ## Go Live Steps
 - [ ] Final conversion of Jekyll posts
