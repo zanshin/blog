@@ -6,7 +6,7 @@
   </a>
   <section>
     <p>
-    Copyright &copy; 1996 - {{ now.Format "2006" }} &bull; Mark H. Nichols
+    {{ replace .Site.Copyright "{year}" now.Year }}
     <br />
       Made with <a href="http://gohugo.io/">Hugo</a> &bull;
       Governed by these <a href="/policies/">Policies</a>
