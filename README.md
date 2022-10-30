@@ -15,6 +15,10 @@
   - [X] Copy htaccess file
     - [X] Redirect not required - using permalink configuration setting to match old URLs
 - [X] Setup 404 error page
+- [ ] Complete scripts partial with
+  - [ ] Mint
+  - [ ] Matomo
+- [ ] Setup RSS feed
 
 ## Go Live Steps
 - [ ] Final conversion of Jekyll posts
@@ -27,6 +31,8 @@
 ## Optional - can happen after going live
 - [ ] Create GitHub Action that rsyncs public to Pair on commit to main branch
 - [ ] Get Tags page setup and working
+- [ ] Get a dark mode working
+- [ ] Get cat JavaScript working
 
 ## Ancillary - need to do elsewhere as a result of this project
 - [X] Create new subdomain for password page
