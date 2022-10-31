@@ -21,11 +21,11 @@
 - [X] Setup RSS feed
 
 ## Go Live Steps
-- [ ] Final conversion of Jekyll posts
-- [ ] Remove test posts from content/posts, content/videos, content/links
-- [ ] Put htaccess redirect into place
-- [ ] Delete and recreate public_html/blog directory on web host (rsync --delete?)
-- [ ] rsync -azr --delete public/* public_html/blog
+- [X] Final conversion of Jekyll posts
+- [X] Remove test posts from content/posts, content/videos, content/links
+- [X] Put htaccess redirect into place
+- [X] Delete and recreate public_html/blog directory on web host (rsync --delete?)
+- [X] rsync -azr --delete public/* public_html/blog
 
 
 ## Optional - can happen after going live
