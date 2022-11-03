@@ -17,7 +17,7 @@ Over time the features of zsh that I've come to rely upon the most are the tab c
 
 Additionally, I had switched away from the main oh-my-zsh project to a [fork created by Steve Losh](https://github.com/sjl/oh-my-zsh "Steve Losh oh-my-zsh"). He added a function that exposed more status states for Git repositories. And I was using a Python script of his that exposed [Mercurial repository information for the prompt](http://stevelosh.com/projects/hg-prompt/ "hg-prompt"). My prompt was capable of informing me of many things based on the current context, but the underlying structure had grown large and burdensome. Two weeks ago I decided to pare down my zsh setup, and in doing so I hoped to achieve two goals. One, I wanted to have a much better understanding of what was actually driving my shell's environment. Two, I wanted to have a simpler, and hopefully quicker loading, setup.
 
-##Lobotomizing My oh-my-zsh theme
+## Lobotomizing My oh-my-zsh theme
 My first thoughts were to remove some of the less used information from my zsh prompt theme. I had added svn information since we use svn at work. However my role there shifted and I have no real need (at the moment) for Subversion reporting in my prompt.
 
 It was the matter of a couple minutes work to comment out the Subversion related code from my theme file and `source .zshrc`. The subjective measure of my prompt's loading time wasn't much improved.
@@ -28,19 +28,19 @@ Taking a new tack, I hunted around and found a completely new zsh theme I liked 
 
 Googling the message took me to a number of [stackOverflow](http://stackoverflow.com/questions/9561519/why-does-zsh-return-command-not-found-error-for-my-rvm-gems "zsh command not found") threads and some pages about Mac OS X's [path_helper](http://unix.stackexchange.com/questions/22979/path-helper-and-zsh "path_helper and zsh"). Something about the new theme wasn't getting along with the rest of my zsh environment.
 
-##A Brief Digression into path_helper
+## A Brief Digression into path_helper
 [path_helper](http://www.softec.lu/site/DevelopersCorner/MasteringThePathHelper "Mastering the path_helper utility of Mac OS X") examines the contents of `/etc/paths.d` and adds entries to your `$PATH`. The consensus seems to be that while it's a good idea, it may not be implemented in the best fashion.
 
 While I was reading all the pages I could find about path_helper, I wasn't seeing the forest for the trees. RVM, and rbenv, are dependent upon their libraries being first in the PATH. If the PATH is altered after those key libraries are setup, the order may no longer be correct.
 
 Frustrated by my lack of success in either altering my theme or incorporating the Fino theme, and not getting the clue the path_finder Google results were giving me, I reverted to my original theme and changed my primary text editor from [TextMate](http://macromates.com "TextMate") to [Sublime Text 2](http://www.sublimetext.com "Sublime Text 2"). When in doubt, go shave a yak.
 
-##Shaving the Sublime Text 2 Yak
+## Shaving the Sublime Text 2 Yak
 I tend to collect open tabs in my browser. I usually have 30 or 40 open tabs and sometimes as many as 100. Periodically I scrub through them all and "do something" with at least some of them. Mentally stuck on the `zsh: command not found` error, I wandered through my open tabs and stopped on the nettuts plus [Perfect Workflow in Sublime Text](http://net.tutsplus.com/articles/news/perfect-workflow-in-sublime-text-free-course/ "Perfect Workflow in Sublime Text 2") free course. Next thing you know I've dusted off my previously installed, but never really used, Sublime Text 2 application and started adding plug-ins and a color theme or two. I wasn't solving my zsh theme issues, but I was using new and different tools to look at the reluctant code. When you can't see the solution, change glasses, right?
 
 With a newly configured and tweaked editor ready for use I returned to the original project.
 
-##Struggles with RVM
+## Struggles with RVM
 There are two Ruby environment managers: [RVM](https://rvm.io "RVM") and [rbenv](https://github.com/sstephenson/rbenv/ "rbenv"). I've used both in the past, although RVM has been my primary one for longer. The framework I use for my Websites is [Octopress](http://octopress.org "Octopress"), which is Ruby-based. I initially installed RVM to setup and configure the required Ruby and Gems to get my site infrastructure working.
 
 Since the error message I was getting seemed to be pointing a finger at RVM I decided to switch to rbenv. Rather than solve the problem, I thought, I'll just switch environment managers. Easy as pie.
@@ -49,39 +49,39 @@ Rather than jeopardize my working-if-slow-loading environment I decided to use a
 
 At this point, with a test bed that I could afford to be risky with, I stepped back from trying to get oh-my-zsh working and considered switching to the other zsh framework I had read about.
 
-##Looking at zshuery
+## Looking at zshuery
 [zshuery](https://github.com/myfreeweb/zshuery "zshuery") is a much lighter-weight framework than oh-my-zsh. Based on the commit activity it isn't nearly as frequently updated either. My concerns with it ran deeper than a seeming lack of support. Without digging into both oh-my-zsh and zshuery and comparing them at a nuts and bolts level I wouldn't know what one had that the other didn't. What would I gain with zshuery? What would I lose and have to recreate?
 
 While starting out with oh-my-zsh was fantastic, it came with a hidden cost. Since I knew nothing about zsh prior to using the framework I had no way of knowing what was raw zsh and what was framework-added. To me, oh-my-zsh **was** zsh.
 
-##We Interrupt this Program for a Brief Word About Writing Sorts
+## We Interrupt this Program for a Brief Word About Writing Sorts
 In my college internal data structures course we wrote a sort. After a lecture discussion the ins and outs of the algorithm I wrote my very own [bubble sort](http://ibmmainframes.com/viewtopic.php?t=15902 "Bubble sort in COBOL"). The following lecture the professor showed us the [JCL](http://en.wikipedia.org/wiki/Job_Control_Language "JCL") sort utility. At first I was upset that I spent all the time and effort to reinvent the sort wheel, but later I came to realize that I had a better understand and appreciation for sorts as a result of the exercise.
 
 My zsh experience was the opposite of my sort experience. I started zsh with the polished, design-decisions-already-made-for-you solution. If I really wanted to get to the bottom of my zsh shell slowness I would need to build my own environment, eschewing frameworks.
 
-##ze-best-zsh-config
+## ze-best-zsh-config
 Github is a wonderful place as people store all sorts of things there, open to the public. In my sifting of Google zsh search results I stumbled onto a repository cheekily named [ze-best-zsh-config](https://github.com/spicycode/ze-best-zsh-config "ze-best-zsh-config"). At first glance it looked well laid out. The various aspects of the configuration, options, exports, the prompt, history, aliases, and functions, were all isolated in their own `.zsh` files, and the resulting components brought together in the `.zshrc` file.
 
 Here was a starting point for my own, hand-rolled zsh environment. I cloned the repository and started working through the `.zsh` files it contained line-by-line to understand them.
 
-##Switching to rbenv
+## Switching to rbenv
 Installing and using rbenv isn't any harder than installing and using RVM. Reflecting the current active Ruby in my shell's right-prompt (RPROMPT) proved to be one of the hardest parts of this project.
 
 I liked the code from the Fino theme for interrogating the host machine for either RVM or rbenv and then determining what Ruby was active. Copying that code to my new `prompt.zsh` file didn't work however. The right-prompt either showed nothing at all, or the line of code that should have resolved to the Ruby name. After an evening of Googling and trial and error I finally posted a [question on stackOverflow](http://stackoverflow.com/questions/14635206/rbenv-version-display-in-zsh-right-prompt-not-refreshing "rbenv version display in zsh right prompt not refreshing"). The next morning I not only had a working answer, I had an explanation of how it worked. I love the Internet.
 
-##setopts, Exports, Aliases, Functions, Colors, Completions, and History
+## setopts, Exports, Aliases, Functions, Colors, Completions, and History
 With my prompt sorted it was time to understand all the configuration options available to me, and setup my environment. Working from the `setops` included in ze-best-zsh-config, I looked everything up. Some I kept, others I changed, a few I dropped. Next I read through the options defined in zshuery.
 
 I performed similar examinations of the colors, completions, history, exports, aliases, and functions .zsh files. I merged my existing functions and aliases into the starter files, and incorporated some more from zshuery.
 
 From zshuery I liberated the idea of testing the host machine's operating system (`uname`) and setting an attribute. This allows me to have options that are OS specific.
 
-##More path_helper Adventures
+## More path_helper Adventures
 During the due diligence process I managed to break the right-prompt. Suddenly the `zsh: command not found` error was back. Somewhere along the line I had managed to break the path. After much searching and reading I finally created a `.zshenv` file and copied the code necessary to run `path_helper` there. I then altered this code to completely clear the path, ensuring that I had no unexpected cruft there. This [article about path_helper](http://www.softec.lu/site/DevelopersCorner/MasteringThePathHelper "Mastering the path_helper utility of Mac OS X") was instrumental in my getting the problem solved.
 
 I also placed the path and shim setup for rbenv into the .zshenv file. With this file in place the `zsh: command not found` error disappeared. Hopefully for good.
 
-##Putting it All Together
+## Putting it All Together
 My new `.zshrc` file is just a list of `.zsh` files that get sourced.
 
 {{< highlight bash   >}}
@@ -102,7 +102,7 @@ source  ${HOME}/.dotfiles/z/z.sh
 
 And those files each contain a portion of the overall configuration. I suppose they could all be combined into one large file, but I like breaking them up into logically related components.
 
-###.zshenv
+### .zshenv
 Here is where we override path_helper by calling it again ourselves. The PATH is cleared first and then rebuilt. The result is far less duplication of directories. rbenv is also setup here.
 
 {{< highlight bash >}}
@@ -123,7 +123,7 @@ fi
 
 {{< / highlight >}}
 
-###checks.zsh
+### checks.zsh
 These tests allow me to later isolate exports, or setopt statement based on the host machine's operating system.
 
 {{< highlight bash >}}
@@ -150,7 +150,7 @@ fi
 
 {{< / highlight >}}
 
-###colors.zsh
+### colors.zsh
 A colorful shell is a happy shell. But the escaped codes are arcane and miserable to work with. Let's give them some readable names.
 
 {{< highlight bash  >}}
@@ -180,7 +180,7 @@ export LS_COLORS=exfxcxdxbxegedabagacad
 
 {{< / highlight >}}
 
-###setopt.zsh
+### setopt.zsh
 There are a dizzying array of options available. These are a start.
 
 {{< highlight bash >}}
@@ -230,7 +230,7 @@ setopt multios # perform implicit tees or cats when multiple redirections are at
 
 {{< / highlight >}}
 
-###exports.zsh
+### exports.zsh
 The PATH is altered here after having been cleared and started in `.zshenv`.
 
 {{< highlight bash  >}}
@@ -269,7 +269,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 {{< / highlight >}}
 
-###prompt.zsh
+### prompt.zsh
 The visible tip of the zsh environment iceberg. Lots going on here.
 
 The Python virtual environment, if one is active, is captured for display in the right-prompt.
@@ -402,7 +402,7 @@ RPROMPT='${PR_GREEN}$(virtualenv_info)%{$reset_color%} ${PR_RED}${ruby_version}%
 
 {{< / highlight >}}
 
-###completion.zsh
+### completion.zsh
 Tab completion is like magic, and the incantations in the `completions.zsh` file are magic to me. I need to learn more about these.
 
 {{< highlight bash >}}
@@ -462,7 +462,7 @@ zstyle '*' single-ignored show
 
 {{< / highlight >}}
 
-###aliases.zsh
+### aliases.zsh
 I've had some of these aliases for as long as I've been working on *nix-based machines. They are as much a part of my muscle memory as tying my shoe or combing my hair. Since zsh tries to spell correct commands, the nocorrect section is at the top. Here is where you put commands that you don't want spell checked every time they are used.
 
 {{< highlight bash  >}}
@@ -654,7 +654,7 @@ alias kthxbai='halt'
 
 {{< / highlight >}}
 
-###bindkeys.zsh
+### bindkeys.zsh
 Create your own keybindings for fun and profit. Still more material to learn better.
 
 {{< highlight bash >}}
@@ -675,7 +675,7 @@ bindkey -v   # Default to standard vi bindings, regardless of editor string
 
 {{< / highlight >}}
 
-###functions.zsh
+### functions.zsh
 Some of these are my own creation, others I've picked up along the way. The most recent addition, `path()` displays your current PATH beautifully. Immensely helpful when sorting out path issues.
 
 {{< highlight bash  >}}
@@ -802,7 +802,7 @@ givedef() {
 
 {{< / highlight >}}
 
-###history.zsh
+### history.zsh
 The variables control how the command history is managed.
 
 {{< highlight bash >}}
@@ -813,7 +813,7 @@ HISTFILE=~/.zsh_history
 
 {{< / highlight >}}
 
-###zsh_hooks.zsh
+### zsh_hooks.zsh
 This file controls the use of the `precmd`, `preexec` and `postcmd` features. I'm not entirely sure I understand all there is to know about this. It's on the list to investigate more thoroughly.
 
 {{< highlight bash >}}
@@ -840,10 +840,10 @@ function postexec {
 
 {{< / highlight >}}
 
-###z.sh
+### z.sh
 [z](https://github.com/rupa/z "z") tracks your most used directories based on 'frequency'. By typing `z ` and part of a directory name I can quickly jump to that part of the file system. Obviously the longer you have it installed the better it performs. I highly recommend it.
 
-##Looking Forward
+## Looking Forward
 My original RVM + oh-my-zsh configuration had the path and setup for RVM contained in the `.zlogin` file. The new rbenv + zsh configuration has the rbenv setup in `.zshenv`. I need to read more on these two files and decide which ought to be used.
 
 I need to explore the subject of bindkeys more to fully understand what they are and how I can benefit from them. I also need to learn about `precmd`, `preexec`, and `postexec`. There use in my setup was copied from ze-best-zsh-config. And `zsh_hooks`.
