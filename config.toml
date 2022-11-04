@@ -61,6 +61,15 @@ copyright = 'Copyright (c) 1996-{year}, Mark H. Nichols; all rights reserved'
   url = "https://password.zanshin.net"
   weight = 4
 
+  [[menu.other]]
+  name = "Compositions"
+  url = "https://compositions.sibyllekuder.com"
+  weight = 1
+  [[menu.other]]
+  name = "Studio"
+  url = "https://sibyllekuder.com"
+  weight = 2
+
 # Define media type
 [mediaTypes]
   [mediaTypes."application/atom"]

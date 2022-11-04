@@ -31,6 +31,17 @@
         </li>
         {{ end }}
       </ul>
+      <ul id="navlist">
+        <li>Sibylle Kuder's Sites</li>
+        {{ range .Site.Menus.other }}
+        <li>
+          <a href="{{ .URL }}">
+            {{ $text := print .Name | safeHTML }}
+            {{ $text }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
     </nav>
   </div>
 
