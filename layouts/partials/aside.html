@@ -55,7 +55,7 @@
     </li>
     {{ end }}
 
-    {{ with .Site.Params.GitHub}}
+    {{ with .Site.Params.GitHub }}
     <li>
       <a href="https://github.com/{{.}}">
         {{ $image = resources.Get "images/GitHub-Mark-32px.png" }}
@@ -63,11 +63,19 @@
     </li>
     {{ end }}
 
-    {{ with .Site.Params.Email}}
+    {{ with .Site.Params.Email }}
     <li>
       <a href="mailto:{{.}}?Subject=Regarding%20Zanshin.net">
         {{ $image = resources.Get "images/email-icon-hi.png" }}
         <img src="{{ $image.RelPermalink }}" alt="Email @ sign" height="32px" width="32px"></a>
+    </li>
+    {{ end }}
+
+    {{ with .Site.Params.Mastodon }}
+    <li>
+      <a rel="me" href="https://mastodon.social/{{.}}">
+        {{ $image = resources.Get "images/mastodon.png" }}
+        <img src="{{ $image.RelPermalink }}" alt="Mastodon logo" height="32px" width="32px"></a>
     </li>
     {{ end }}
   </ul>

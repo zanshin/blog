@@ -21,6 +21,7 @@ copyright = 'Copyright (c) 1996-{year}, Mark H. Nichols; all rights reserved'
 
   Twitter = "zanshin"
   GitHub = "zanshin"
+  Mastodon = "@zanshin"
   Email = "mark@zanshin.net"
 
   # RSS main sections
