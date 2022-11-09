@@ -1,7 +1,17 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+  {{ if .Params.link }}
+    <h1>
+    <a href="{{ .Params.linkurl }}">{{ .Title }}</a>
+    </h1>
+  {{ else }}
+    <h1>{{ .Title }}</h1>
+  {{ end }}
   {{ partial "metadata.html" . }}
   <br><br>
   {{ .Content }}
-  {{ partial "post-footer.html" . }}
+  {{ if .Params.link }}
+    {{ partial "link-footer.html" . }}
+  {{ else }}
+    {{ partial "post-footer.html" . }}
+  {{ end }}
 {{ end }}
