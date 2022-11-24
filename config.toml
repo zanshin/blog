@@ -5,7 +5,13 @@ title = 'Zanshin.net'
 # RSS Limit, remove for unlimted
 rssLimit = 20
 
+# Pygments
+PygmentsCodeFences = true
+pygmentsUseClasses = false
+PygmentsStyle = "native"
+
 copyright = 'Copyright (c) 1996-{year}, Mark H. Nichols; all rights reserved'
+
 [author]
   name = 'Mark H. Nichols'
   email = "mark@zanshin.net"
@@ -26,6 +32,17 @@ copyright = 'Copyright (c) 1996-{year}, Mark H. Nichols; all rights reserved'
 
   # RSS main sections
   mainSections = ["posts"]
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  hl_Lines = ""
+  # lineNoStart = 1
+  # lineNos = true
+  # lineNumbersInTable = true
+  # tabWidth = 4
+  # noClasses = false
+  style = "native"
 
 [menu]
   [[menu.main]]

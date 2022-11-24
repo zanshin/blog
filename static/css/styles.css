@@ -1,13 +1,9 @@
-/* @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700); */
 @import url(https://fonts.bunny.net/css?family=cormorant-sc:300,400,500,600,700|gotu:400);
 
 body {
   padding:50px;
-  /* font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-family: 'Gotu', sans-serif;
   font-size:18px/1.5;
-  /* font: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  /* color:#777; */
   color:#333;
   font-weight:400;
 }
@@ -38,21 +34,14 @@ h5 { font-size: 0.83em; }
 h6 { font-size: 0.67em; }
 
 a {
-  /* color:#39c; */
-  /* color:#6495ed; */
   color:#0074D9;
   font-weight:800;
   text-decoration:none;
 }
 
 a:hover {
-  /* color:#069; */
-  /* color:#4876ff; */
-  /* color:#001f3f; */
   color:#85144b;
   font-weight:800;
-  /* position: relative; */
-  /* top: -5px; */
 }
 
 a small {
@@ -79,65 +68,52 @@ blockquote {
   font-style:italic;
 }
 
-pre,
-code,
-kbd,
-samp {
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-	font-size: inherit;
-}
-
-pre,
-code {
-	background-color: #f5f5f5;
-	border: 1px solid #ebebeb;
-}
-
-code {
-	padding: 0 5px;
-	color: #c33;
+/* From Jekyll site */
+code, pre {
+  font-family: SFMono-Regular, Menlo, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-size: 15px;
+  background: #f4f0ec;
 }
 
 pre {
-	display: block;
-	padding: 0;
-	padding: 1.25rem;
-	margin-bottom: 20px;
-	margin-bottom: 1.25rem;
-	overflow: auto;
-	color: #000;
+  padding:8px 15px;
+  background: #f8f8f8;
+  border-radius:5px;
+  border:1px solid #e5e5e5;
+  overflow-x: auto;
 }
 
-pre code {
-	padding: 0;
-	color: inherit;
-	white-space: inherit;
-	background: inherit;
-	border: 0;
-}
-
-kbd {
-	padding: 2px 3px;
-	color: #fff;
-	background-color: #2a2a2a;
-}
-
-/* code, pre { */
-/*   font-family:Menlo, Bitstream Vera Sans Mono, Lucida Console, Terminal; */
-/*   color:#333; */
-/*   font-size:13px; */
-/*   backgrouud: #ebebeb; */
-/* /*  background: #f8f8f8; */ */
+/* pre, */
+/* code, */
+/* kbd, */
+/* samp { */
+/* 	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+/* 	font-size: inherit; */
 /* } */
 /*  */
-/* pre { */
-/*   padding:8px 15px; */
-/*   background: #f8f8f8; */
-/*   border-radius:5px; */
-/*   border:1px solid #e5e5e5; */
-/*   overflow-x: auto; */
+/* p code { */
+/*   color: crimson; */
 /* } */
-
+/*  */
+/* pre, highlight { */
+/*   display: block; */
+/*   overflow: auto; */
+/*   /* background-color: #98AFC7; */ */
+/*   border-bottom-left-radius: 5px; */
+/*   border-bottom-right-radius: 5px; */
+/*   border-top-left-radius: 5px; */
+/*   border-top-right-radius: 5px; */
+/*   box-sizing: border-box; */
+/*   /* color: rgb(20, 25, 87); */ */
+/*   font-size: 1em; */
+/*   margin: 1em; */
+/*   /* padding-bottom: 1em; */ */
+/*   /* padding-left: 1em; */ */
+/*   /* padding-right: 1em; */ */
+/*   /* padding-top: 1em; */ */
+/*   white-space: pre-wrap; */
+/*   word-break: break-all; */
+/* } */
 
 table {
   width:100%;
@@ -566,36 +542,6 @@ img.profile {
 .older-posts:hover,
 .newer-posts:hover {
     border-color: #9EABB3;
-}
-
-/* Carbon Ad styling */
-/* To position the text below the image */
-.carbon-text {
-   display: block;
-   width: 130px;
-}
-
-/* To add a border around the ad */
-#carbonads {
-   padding: 15px;
-   border: 1px solid #ccc;
-}
-
-/* To separate the attribution from the text */
-.carbon-poweredby {
-   float: right;
-}
-.carbon-text {
-   padding: 8px 0;
-}
-
-/* To style the text and attribution */
-.carbon-text {
-    font-size: 12px;
-    color: teal;
-}
-.carbon-poweredby {
-    font-size: 75%;
 }
 
 /* media screen settings */
