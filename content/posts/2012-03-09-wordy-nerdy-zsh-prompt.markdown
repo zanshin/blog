@@ -19,17 +19,17 @@ And here's an annotated image that explains all the parts and pieces.
 
 ![Annotated prompts](https://zanshin.net/images/annotated-prompts.png)
 
-##What You'll Need  
+##What You'll Need
 * zsh
 * Steve Losh's [oh-my-zsh](http://github.com/sjl/oh-my-zsh/ "oh-my-zsh") fork
 * Steve Losh's [hg-prompt](http://stevelosh.com/projects/hg-prompt/ "hg-prompt") package
 
-##Create an oh-my-zsh theme  
+##Create an oh-my-zsh theme
 I copied the Soliah theme when I started with oh-my-zsh originally. Over time I've completely modified it to suit my tastes. Browse through the [theme offerings](https://github.com/robbyrussell/oh-my-zsh/wiki/themes "oh-my-zsh themes") and find one you like. Make a copy and give it a unique name. I named mine after my domain, or `zanshin.zsh-theme`.
 
 You can grab a copy of my theme file from my [dotfiles](https://github.com/zan5hin/dotfiles "dotfiles") repository on Github.
 
-##The Prompt  
+##The Prompt
 From left to right my prompt shows me:
 
 * The `user name` I'm currently logged in under
@@ -55,21 +55,21 @@ For **svn** repositories the prompt character changes to a `⚡` and the followi
 * The `revision` number
 * And a `[dirty]` indicator if there are uncommitted changes
 
-##Right Prompt  
+##Right Prompt
 Zsh supports the idea of a right prompt and I've made use of this to show the current Ruby version. I'm using [rbenv](https://github.com/sstephenson/rbenv "rbenv") to manage my Ruby versions. The presence of a `.rbenv-version` file triggers changing the Ruby in effect. My right prompt queries rbenv to determine what to display.
 
 {{< highlight bash >}}
 RPROMPT='%{$fg[red]%}$(rbenv version-name)%{$reset_color%}%'
-{% endhighlight%}
+{{< /  highlight >}}
 
-##Subversion Prompt  
+##Subversion Prompt
 Steve Losh's prompt works beautifully as-is for git and hg repositories. I wanted to extend my prompt to work for subversion repositories since my employer is subversion-based. I got the bulk of my svn prompt from this [Landon Fuller](https://github.com/landonf "Landon Fuller") gist.
 
 {% gist 1156969 %}
 
 I stripped out some of his code, paring it down to just the bare essentials to display svn information. What his prompt script didn't provide was a way to indicate whether or not the working directory had uncommitted changes. Using output from the [bash prompt builder](http://andrewray.me/bash-prompt-builder/index.html "bash prompt builder") as an example I was able to add a test for uncommitted changes.
 
-##Source Code  
+##Source Code
 Here's a copy of the complete zsh-theme I'm using.
 
 {{< highlight bash >}}
@@ -106,7 +106,7 @@ patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset
 
 # ----------------------------------------------------------------------------
 # svn prompt
-# based on: https://gist.github.com/1156969 
+# based on: https://gist.github.com/1156969
 # with help from: http://andrewray.me/bash-prompt-builder/index.html
 # ----------------------------------------------------------------------------
 function svn_prompt_info {
@@ -122,7 +122,7 @@ function svn_prompt_info {
 		svn_branch=`svn info | grep '^URL:' | egrep -o '((tags|branches)/[^/]+|trunk).*' | sed -E -e 's/^(branches|tags)\///g'`
 		svn_repository=`svn info | grep '^Repository Root:' | egrep -o '(http|https|file|svn|svn+ssh)/[^/]+' | egrep -o '[^/]+$'`
 		svn_version=`svnversion -n`
-		
+
 		# this is the slowest test of the bunch
 		change_count=`svn status | grep "?\|\!\|M\|A" | wc -l`
 		if [ "$change_count" != "       0" ]; then
@@ -130,10 +130,10 @@ function svn_prompt_info {
 		else
 			svn_change=""
 		fi
-		
+
 		# show the results
 		echo "%{$fg[blue]%}$svn_repository/$svn_branch @ $svn_version%{$reset_color%}%{$fg[yellow]%}$svn_change%{$reset_color%}"
-		
+
 	fi
 }
 
