@@ -1,7 +1,6 @@
 ---
 title: "How to See Only Active Network Interfaces on Macos"
 date: 2024-03-04T09:10:45-06:00
-draft: true
 
 tags:
 - Apple
