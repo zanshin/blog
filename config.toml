@@ -12,7 +12,7 @@ PygmentsStyle = "native"
 
 copyright = 'Copyright (c) 1996-{year}, Mark H. Nichols; all rights reserved'
 
-[author]
+[params.author]
   name = 'Mark H. Nichols'
   email = "mark@zanshin.net"
 
