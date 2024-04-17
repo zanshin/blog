@@ -1,0 +1,12 @@
+---
+layout: post
+title: "3D Printing"
+date: 2012-03-20T14:41:00
+comments: true
+tags:
+- links
+link: http://youtu.be/pQHnMj6dxj4
+---
+Scan an object and then re-create it via some powder and resin on a 3D printer. This changes everything.
+
+{{< youtube pQHnMj6dxj4 >}}
