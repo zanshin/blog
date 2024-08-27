@@ -95,7 +95,7 @@ preferred Mastodon client. I use it on my phone, iPad, and MacBook Air daily.
 I have two acoustic and one electric cello.
 
 [Jay Haide model](http://www.jayhaide.com/Cello/Statue-Model-Cello "Statue Model Cello").  
-My current cello is a wonderful Jay Haide model that I purchased new in 2021.
+My current cello is a wonderful Jay Haide 4/4 Statue Euro Ruggeri model that I purchased new in 2021.
 It has a rich, deep voice, and tremendous power. I'm still learning all the
 nuances to its character.
 
