@@ -4,8 +4,8 @@ RewriteEngine on
 
 # Block bots and spiders from amazonaws.com 20140901
 RewriteCond %{HTTP_REFERER} ^http://.*amazonaws\.com [OR]
-RewriteCond %{REMOTE_HOST} ^.*\.compute-1\.amazonaws\.com$ [NC]
-RewriteRule ^(.*)$ - [F]
+RewriteCond %{REMOTE_HOST} \.amazonaws\.com$ [NC]
+RewriteRule ^(.*)$ - [F,L]
 
 # Block "Bloglovin" from accessing (scraping) my site
 SetEnvIfNoCase User-Agent "^Bloglovin" bad_user
